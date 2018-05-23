@@ -1,0 +1,57 @@
+{
+    "toTxb":
+    {
+        "SimpleName": "To Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::toField"
+            }
+        }
+    },
+    "subjectTxb":
+    {
+        "SimpleName": "Subject Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::subjectField"
+            }
+        }
+    },
+    "cancelBtn":
+    {
+        "SimpleName": "Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Cancel'"
+            }
+        }
+    },
+    "deleteDraftBtn":
+    {
+        "SimpleName": "Delete Draft Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Delete Draft'"
+            }
+        }
+    },
+    "CouldNotSendBtn":
+    {
+        "SimpleName": "Could Not Send Email Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Could Not Send Email'"
+            }
+        }
+    }
+}

@@ -1,0 +1,794 @@
+{
+    "seriesTtl":
+    {
+        "SimpleName": "$inText Series Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "CMT":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "VH1":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    },
+    "seriesCloseBtn":
+    {
+        "SimpleName": "Series Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'close'"
+            }
+        }
+
+    },
+    "episodeTtl":
+    {
+        "SimpleName": "$inText Episode Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[./XCUIElementTypeStaticText[@name=\"$inText\"]]"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    },
+    "episodeDescriptionTxt":
+    {
+        "SimpleName": "$inText Episode Description Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[./XCUIElementTypeStaticText[@name='$inText']]"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "episodePauseBtn":
+    {
+        "SimpleName": "$inText Episode Pause Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[./XCUIElementTypeStaticText[@name=\"$inText\"]]/XCUIElementTypeButton[@name='Pause Button']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.TextView[@text=\"$inText\"]/../../..//android.widget.ImageView[@content-desc='pause']",
+                "AllDevicesAndroid7": "XPath:://android.widget.TextView[@text=\"$inTextU\"]/../../..//android.widget.ImageView[@content-desc='pause']"
+            }
+        }
+    },
+    "episodePlayBtn":
+    {
+        "SimpleName": "$inText Episode Play Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[./XCUIElementTypeStaticText[@name=\"$inText\"]]/XCUIElementTypeButton[@name='Play Button']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.TextView[@text=\"$inText\"]/../../..//android.widget.ImageView[@content-desc='play']",
+                "AllDevicesAndroid7": "XPath:://android.widget.TextView[@text=\"$inTextU\"]/../../..//android.widget.ImageView[@content-desc='play']"
+
+            }
+        }
+    },
+    "episodeLockBtn":
+    {
+        "SimpleName": "$inText Episode Lock Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[./XCUIElementTypeStaticText[@name='$inText']]/XCUIElementTypeButton[@name='Locked Play Button']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.TextView[@text=\"$inText\"]/../../..//android.widget.ImageView[@content-desc='locked']",
+                "AllDevicesAndroid7": "XPath:://android.widget.TextView[@text=\"$inTextU\"]/../../..//android.widget.ImageView[@content-desc='locked']"
+            }
+        }
+    },
+    "episodeLoadingSpinnerBtn":
+    {
+        "SimpleName": "$inText Episode Loading Spinner Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'universal_loading'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.TextView[@text=\"$inText\"]/../../..//android.widget.ImageView[@content-desc='loading wait']",
+                "AllDevicesAndroid7": "XPath:://android.widget.TextView[@text=\"$inTextU\"]/../../..//android.widget.ImageView[@content-desc='loading wait']"
+            }
+        }
+    },
+    "noThanksBtn":
+    {
+        "SimpleName": "No Thanks Alert Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeAlert[1].XCUIElementCollectionView[1].XCUIElementTypeCell[1].XCUIElementTypeButton[1]"
+            }
+        }
+    },
+    "remindMeLaterBtn":
+    {
+        "SimpleName": "Remind Me Later Alert Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevicesIOS10": "XPath:://XCUIElementTypeAlert[1].XCUIElementCollectionView[1].XCUIElementTypeCell[2].XCUIElementTypeButton[1]"
+            }
+        }
+    },
+    "rateBtn":
+    {
+        "SimpleName": "Rate Alert Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevicesIOS10": "XPath:://XCUIElementTypeAlert[1].XCUIElementCollectionView[1].XCUIElementTypeCell[3].XCUIElementTypeButton[1]"
+            }
+        }
+    },
+    "allSeasonsBtn":
+    {
+        "SimpleName": "All Seasons Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='ALL SEASONS']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"All Seasons\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"ALL SEASONS\")"
+            }
+        }
+    },
+    "seasonOneBtn":
+    {
+        "SimpleName": "Season One Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 1']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 1\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 1\")"
+            }
+        }
+    },
+    "seasonTwoBtn":
+    {
+        "SimpleName": "Season Two Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 2']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 2\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 2\")"
+            }
+        }
+    },
+    "seasonThreeBtn":
+    {
+        "SimpleName": "Season Three Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 3']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Season 3\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 3\")"
+            }
+        }
+    },
+    "seasonFourBtn":
+    {
+        "SimpleName": "Season Four Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 4']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 4\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 4\")"
+            }
+        }
+    },
+    "seasonFiveBtn":
+    {
+        "SimpleName": "Season Five Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 5']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 5\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 5\")"
+            }
+        }
+    },
+    "seasonSixBtn":
+    {
+        "SimpleName": "Season Six Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 6']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 6\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 6\")"
+            }
+        }
+    },
+    "seasonSevenBtn":
+    {
+        "SimpleName": "Season Seven Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 7']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 7\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 7\")"
+            }
+        }
+    },
+    "seasonEightBtn":
+    {
+        "SimpleName": "Season Eight Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 8']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 8\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 8\")"
+            }
+        }
+    },
+    "seasonNineBtn":
+    {
+        "SimpleName": "Season Nine Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 9']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 9\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 9\")"
+            }
+        }
+    },
+    "seasonTenBtn":
+    {
+        "SimpleName": "Season Ten Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 10']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 10\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 10\")"
+            }
+        }
+    },
+    "seasonElevenBtn":
+    {
+        "SimpleName": "Season Eleven Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 11']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 11\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 11\")"
+            }
+        }
+    },
+    "seasonTwelveBtn":
+    {
+        "SimpleName": "Season Twelve Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 12']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 12\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 12\")"
+            }
+        }
+    },
+    "seasonThirteenBtn":
+    {
+        "SimpleName": "Season Thirteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 13']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 13\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 13\")"
+            }
+        }
+    },
+    "seasonFourteenBtn":
+    {
+        "SimpleName": "Season Fourteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 14']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 14\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 14\")"
+            }
+        }
+    },
+    "seasonFifteenBtn":
+    {
+        "SimpleName": "Season Fifteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 15']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 15\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 15\")"
+            }
+        }
+    },
+    "seasonSixteenBtn":
+    {
+        "SimpleName": "Season Sixteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 16']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 16\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 16\")"
+            }
+        }
+    },
+    "seasonSeventeenBtn":
+    {
+        "SimpleName": "Season Seventeen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 17']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 17\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 18\")"
+            }
+        }
+    },
+    "seasonEighteenBtn":
+    {
+        "SimpleName": "Season Eighteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 18']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 18\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 18\")"
+            }
+        }
+    },
+    "seasonNineteenBtn":
+    {
+        "SimpleName": "Season Nineteen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 19']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 19\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 19\")"
+            }
+        }
+    },
+    "seasonTwentyBtn":
+    {
+        "SimpleName": "Season Twenty Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeStaticText[@name='SEASON 20']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Season 20\")",
+                "AllDevicesAndroid7":  "AndroidUIAutomator::text(\"SEASON 20\")"
+            }
+        }
+    },
+    "watchXtrasBtn":
+    {
+        "SimpleName": "Watch Xtras Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'CLIPS & EXTRAS'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"Clips & Extras\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"CLIPS & EXTRAS\")"
+            }
+        }
+    },
+    "fullEpisodesBtn":
+    {
+        "SimpleName": "Full Episodes Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'FULL EPISODES'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Full Episodes\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"FULL EPISODES\")"
+            }
+        }
+    },
+    "shareBtn":
+    {
+        "SimpleName": "Share Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/action_share\")"
+            }
+        }
+    },
+    "seasonSelectorContainer":
+    {
+        "SimpleName": "Season Selector Container Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeCollectionView'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tablayout\")"
+            }
+        }
+    },
+    "progressBarIcn":
+    {
+        "SimpleName": "Progress Bar",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeActivityIndicator'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/progress\")"
+            }
+        }
+    },
+    "backBtn":
+    {
+        "SimpleName": "Series Back Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeButton[@name='Close']"
+            }
+        }
+    },
+   	"movieBtn":
+    {
+        "SimpleName": "Watch Movie Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'MOVIE'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Movie\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"MOVIE\")"
+            }
+        }
+    },
+    "specialBtn":
+    {
+        "SimpleName": "Special Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'SPECIAL'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Watch Event\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"WATCH EVENT\")"
+            }
+        }
+    },
+    "trailerBtn":
+    {
+        "SimpleName": "Trailer Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'TRAILER'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Trailer\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TRAILER\")"
+            }
+        }
+    },
+  	"movieMetaDataText":
+    {
+        "SimpleName": "$inText - Movie Meta Data Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    }
+}

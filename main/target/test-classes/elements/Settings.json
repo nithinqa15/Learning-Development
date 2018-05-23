@@ -1,0 +1,60 @@
+{
+    "moreOptionsBtn":
+    {
+        "SimpleName": "More Options Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"More options\")"
+            }
+        }
+    },
+    "settingsBtn":
+    {
+        "SimpleName": "Settings Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'Settings' AND wdLabel CONTAINS 'Settings'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Settings\")"
+            }
+        }
+    },
+    "shareBtn":
+    {
+        "SimpleName": "Share Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Share\")"
+            }
+        }
+    },
+    "toolBar":
+    {
+        "SimpleName": "Toolbar",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/toolbar\")"
+            }
+        }
+    }
+}

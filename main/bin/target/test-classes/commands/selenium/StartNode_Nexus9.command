@@ -1,0 +1,1 @@
+appium -a nodeIPAddress -p 4731 -U HT4BDJT01915 --command-timeout 180 --nodeconfig $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/NodeConfigTablet_Android.json

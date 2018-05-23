@@ -1,0 +1,1623 @@
+{
+    "attUsernameTxb":
+    {
+        "SimpleName": "AT&T Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"nameBox\")"
+            }
+        }
+    },
+    "attPasswordTxb":
+    {
+        "SimpleName": "AT&T Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"pwdBox\")"
+            }
+        }
+    },
+    "attSignInBtn":
+    {
+        "SimpleName": "AT&T Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"submitLogin\")"
+            }
+        }
+    },
+    "blueToGoUsernameTxb":
+    {
+        "SimpleName": "Blue To Go Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField' AND wdName == 'Usuario'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "blueToGoPasswordTxb":
+    {
+        "SimpleName": "Blue To Go Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField' AND wdName == 'Contraseña'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "blueToGoSignInBtn":
+    {
+        "SimpleName": "Blue To Go Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'INICIAR SESIÓN'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"INICIAR SESIÓN\")"
+            }
+        }
+    },
+    "blueToGoDeviceLimitTxt":
+    {
+        "SimpleName": "Blue To Go Device Limit Reached Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdValue CONTAINS 'LA CANTIDAD TOTAL DE DISPOSITIVOS'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "LA CANTIDAD TOTAL DE DISPOSITIVOS ACTIVOS HA SUPERADO EL LÍMITE ESTABLECIDO (25 DISPOSITIVOS)."
+            }
+        }
+    },
+    "blueToGoCloseAllSessionsBtn":
+    {
+        "SimpleName": "Blue To Go Close All Sessions Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdValue == 'Todos'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "boxerUsernameTxb":
+    {
+        "SimpleName": "Boxer Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_email\")"
+            }
+        }
+    },
+    "boxerPasswordTxb":
+    {
+        "SimpleName": "Boxer Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_password\")"
+            }
+        }
+    },
+    "boxerSubmitBtn":
+    {
+        "SimpleName": "Boxer Submit Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign in'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Sign in\")"
+            }
+        }
+    },
+    "brighthouseUsernameTxb":
+    {
+        "SimpleName": "Brighthouse Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginFormUsername\")"
+            }
+        }
+    },
+    "brighthousePasswordTxb":
+    {
+        "SimpleName": "Brighthouse Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginFormPassword\")"
+            }
+        }
+    },
+    "brighthouseSignInBtn":
+    {
+        "SimpleName": "Brighthouse Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginButton\")"
+            }
+        }
+    },
+    "claroUsernameTxb":
+    {
+        "SimpleName": "Claro Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "claroPasswordTxb":
+    {
+        "SimpleName": "Claro Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "claroSignInBtn":
+    {
+        "SimpleName": "Claro Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Ingresar'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"regularsubmit\")"
+            }
+        }
+    },
+    "coxUsernameTxb":
+    {
+        "SimpleName": "COX Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "coxPasswordTxb":
+    {
+        "SimpleName": "COX Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "coxSignInBtn":
+    {
+        "SimpleName": "COX Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.Button[@content-desc='Sign In']"
+            }
+        }
+    },
+    "directTVUsernameTxb":
+    {
+        "SimpleName": "DirectTV Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"usernameInputId\")"
+            }
+        }
+    },
+    "directTVPasswordTxb":
+    {
+        "SimpleName": "DirectTV Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.EditText[@password='true']"
+            }
+        }
+    },
+    "directTVSignInBtn":
+    {
+        "SimpleName": "DirectTV Sign In Button",
+        "iOS":
+        {
+            "CC_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'INGRESAR'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'INGRESAR'"
+            },
+            "TVLand":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeOther[@name=\"DIRECTV Login or Register\"]/XCUIElementTypeOther[8]/XCUIElementTypeButton[2]"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginSubmitId\")"
+            }
+        }
+    },
+    "dishUsernameTxb":
+    {
+        "SimpleName": "Dish Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"correo\")"
+            }
+        }
+    },
+    "dishPasswordTxb":
+    {
+        "SimpleName": "Dish Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"pwd\")"
+            }
+        }
+    },
+    "dishSignInBtn":
+    {
+        "SimpleName": "Dish Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'ENVIAR'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"ENVIAR\")"
+            }
+        }
+    },
+    "dishForgotIdLink":
+    {
+        "SimpleName": "Dish Forgot ID Link",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.view.View[@content-desc='Regístrate']"
+            }
+        }
+    },
+    "dishForgotPasswordLink":
+    {
+        "SimpleName": "Dish Forgot Password Link",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.view.View[@content-desc='Recupérala aquí']"
+            }
+        }
+    },
+    "dishForgotIdScreen":
+    {
+        "SimpleName": "Dish Forgot ID Screen",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"reg_form\")"
+            }
+        }
+    },
+    "dishForgotPasswordScreen":
+    {
+        "SimpleName": "Dish Forgot Password Screen",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"recupera\")"
+            }
+        }
+    },
+    "frontierUsernameTxb":
+    {
+        "SimpleName": "Frontier Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "frontierPasswordTxb":
+    {
+        "SimpleName": "Frontier Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "frontierSignInBtn":
+    {
+        "SimpleName": "Frontier Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"submit\")"
+            }
+        }
+    },
+    "getUsernameTxb":
+    {
+        "SimpleName": "Get Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_username\")"
+            }
+        }
+    },
+    "getPasswordTxb":
+    {
+        "SimpleName": "Get Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_password\")"
+            }
+        }
+    },
+    "getSubmitBtn":
+    {
+        "SimpleName": "Get Submit Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Submit'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Submit\")"
+            }
+        }
+    },
+    "mediacomUsernameTxb":
+    {
+        "SimpleName": "Mediacom Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "mediacomPasswordTxb":
+    {
+        "SimpleName": "Mediacom Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "mediacomSignInBtn":
+    {
+        "SimpleName": "Mediacom Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'Login'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+
+                "AllDevices": "AndroidUIAutomator::description(\"Login Login\")"
+            }
+        }
+    },
+    "megacableUsernameTxb":
+    {
+        "SimpleName": "Megacable Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "megacablePasswordTxb":
+    {
+        "SimpleName": "Megacable Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "megacableSignInBtn":
+    {
+        "SimpleName": "Megacable Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Iniciar'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"regularsubmit\")"
+            }
+        }
+    },
+    "megacableFailedLoginTxt":
+    {
+        "SimpleName": "Megacable Failed Login Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Si aún no cuentas con acceso'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Existe un error en la solicitud de esta página. La razón es: Favor de verificar sus datos o proceder con su registro.\")"
+            }
+        }
+    },
+    "megacableDeviceLimitTxt":
+    {
+        "SimpleName": "Megacable Device Limit Reached Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdValue CONTAINS 'LA CANTIDAD TOTAL DE DISPOSITIVOS'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                 "AllDevices": "XPath:://android.webkit.WebView[@text='LA CANTIDAD TOTAL DE DISPOSITIVOS ACTIVOS HA SUPERADO EL LÍMITE ESTABLECIDO (10DISPOSITIVOS).']"
+            }
+        }
+    },
+    "megacableCloseAllSessionsBtn":
+    {
+        "SimpleName": "Megacable Close All Sessions Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'Todos'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"remove-all\")"
+            }
+        }
+    },
+    "optimumUsernameTxb":
+    {
+        "SimpleName": "Optimum Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"IDToken1\")"
+            }
+        }
+    },
+    "optimumPasswordTxb":
+    {
+        "SimpleName": "Optimum Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"IDToken2\")"
+            }
+        }
+    },
+    "optimumSignInBtn":
+    {
+        "SimpleName": "Optimum Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeOther[@name=\"Optimum Online\"]/XCUIElementTypeOther[7]/XCUIElementTypeImage"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"signin_button\")"
+            }
+
+        }
+    },
+    "optimumForgotIdLink":
+    {
+        "SimpleName": "Optimum Forgot ID Link",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'Forgot ID?'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"forgot_id\")"
+            }
+        }
+    },
+    "optimumForgotPasswordLink":
+    {
+        "SimpleName": "Optimum Forgot Password Link",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Forgot Password?'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"forgot_pw\")"
+            }
+        }
+    },
+    "optimumForgotIdScreen":
+    {
+        "SimpleName": "Optimum Forgot ID Screen",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Recover ID'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Recover ID\")"
+            }
+        }
+    },
+    "optimumForgotPasswordScreen":
+    {
+        "SimpleName": "Optimum Forgot Password Screen",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Reset Your Optimum Password'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Reset Your Optimum Password\")"
+            }
+        }
+    },
+    "optimumFailedLoginTxt":
+    {
+        "SimpleName": "Optimum Failed Login Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Please try again.'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"You have entered an incorrect Optimum\")"
+            }
+        }
+    },
+    "rcnUsernameTxb":
+    {
+        "SimpleName": "RCN Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "rcnPasswordTxb":
+    {
+        "SimpleName": "RCN Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "rcnSignInBtn":
+    {
+        "SimpleName": "RCN Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign in'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Sign in\")"
+            }
+        }
+    },
+    "rikstvUsernameTxb":
+    {
+        "SimpleName": "RiksTV Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_username\")"
+            }
+        }
+    },
+    "rikstvPasswordTxb":
+    {
+        "SimpleName": "RiksTV Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"session_password\")"
+            }
+        }
+    },
+    "rikstvSubmitBtn":
+    {
+        "SimpleName": "RiksTV Submit Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Submit'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Submit\")"
+            }
+        }
+    },
+    "serviceElectricUsernameTxb":
+    {
+        "SimpleName": "Service Electric Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "serviceElectricPasswordTxb":
+    {
+        "SimpleName": "Service Electric Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "serviceElectricSignInBtn":
+    {
+        "SimpleName": "Service Electric Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"login\")"
+            }
+        }
+    },
+    "singtelUsernameTxb":
+    {
+        "SimpleName": "Singtel Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"Email\")"
+            }
+        }
+    },
+    "singtelPasswordTxb":
+    {
+        "SimpleName": "Singtel Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.EditText[@password='true']"
+            }
+        }
+    },
+    "singtelSignInBtn":
+    {
+        "SimpleName": "Singtel Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Login\")"
+            }
+        }
+    },
+    "skyUsernameTxb":
+    {
+        "SimpleName": "Sky Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"login\")"
+            }
+        }
+    },
+    "skyPasswordTxb":
+    {
+        "SimpleName": "Sky Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"senha\")"
+            }
+        }
+    },
+    "skySignInBtn":
+    {
+        "SimpleName": "Sky Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "IosUIalTarget().frontMostApp().mainWindow().scrollViews()[0].webViews()[0].buttons()[\"Entrar\"]"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::description(\"Entrar\")"
+            }
+        }
+    },
+    "stofaUsernameTxb":
+    {
+        "SimpleName": "Stofa Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                 "AllDevices": "AndroidUIAutomator::resourceId(\"mitLoginUserName\")"
+            }
+        }
+    },
+    "stofaPasswordTxb":
+    {
+        "SimpleName": "Stofa Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"mitLoginPassword\")"
+            }
+        }
+    },
+    "stofaSubmitBtn":
+    {
+        "SimpleName": "Stofa Submit Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Opret adgang'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Opret adgang\")" 
+            }
+        }
+    },
+    "telecentroUsernameTxb":
+    {
+        "SimpleName": "Telecentro Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "telecentroPasswordTxb":
+    {
+        "SimpleName": "Telecentro Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "telecentroSignInBtn":
+    {
+        "SimpleName": "Telecentro Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Aceptar'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"submit\")"
+            }
+        }
+    },
+    "timeWarnerCableUsernameTxb":
+    {
+        "SimpleName": "Time Warner Cable Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginFormUsername\")"
+            }
+        }
+    },
+    "timeWarnerCablePasswordTxb":
+    {
+        "SimpleName": "Time Warner Cable Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginFormPassword\")"
+            }
+        }
+    },
+    "timeWarnerCableSignInBtn":
+    {
+        "SimpleName": "Time Warner Cable Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"loginButton\")"
+            }
+        }
+    },
+    "verizonUsernameTxb":
+    {
+        "SimpleName": "Verizon Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"IDToken1\")"
+            }
+        }
+    },
+    "verizonPasswordTxb":
+    {
+        "SimpleName": "Verizon Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"IDToken2\")"
+            }
+        }
+    },
+    "verizonSignInBtn":
+    {
+        "SimpleName": "Verizon Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Sign In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"tvloginsignin\")"
+            }
+        }
+    },
+    "wowUsernameTxb":
+    {
+        "SimpleName": "WOW Username Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"username\")"
+            }
+        }
+    },
+    "wowPasswordTxb":
+    {
+        "SimpleName": "WOW Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"password\")"
+            }
+        }
+    },
+    "wowSignInBtn":
+    {
+        "SimpleName": "WOW Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Log In'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"login\")"
+            }
+        }
+    },
+    "successTxt":
+    {
+        "SimpleName": "Success Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdValue CONTAINS 'NOW CONNECTED'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"you're now connected\")"
+            }
+        }
+    },
+    "closeBtn":
+    {
+        "SimpleName": "Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Close Button'"
+            }
+        }
+    },
+    "successCloseBtn":
+    {
+        "SimpleName": "Success Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Close\")"
+            }
+        }
+    },
+    "backBtn":
+    {
+        "SimpleName": "Back to Providers Page Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        }
+    },
+    "signInText":
+    {
+        "SimpleName": "Sign In Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"2. SIGN IN\")"
+            }
+        }
+    },
+    "pleaseWaitText":
+    {
+        "SimpleName": "Please Wait Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Please wait…\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Please wait while we load'"
+            }
+        }
+    },
+    "signingInText":
+    {
+        "SimpleName": "Signing In Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdValue == 'Please wait...'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Signing in\")"
+            }
+        }
+    },
+    "subscriptionRequiredText":
+    {
+        "SimpleName": "Subscription Required Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.Button[@text='OKAY']"
+            }
+        }
+    }
+}

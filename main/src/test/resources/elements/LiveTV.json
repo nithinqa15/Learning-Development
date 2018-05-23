@@ -1,0 +1,131 @@
+{
+    "liveTVCloseBtn":
+    {
+        "SimpleName": "LiveTV Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Close'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        }
+    },
+    "onNowTtl":
+    {
+        "SimpleName": "On Now Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'ON NOW'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/heading_item\")"
+            }
+        }
+    },
+    "onNowSeriesTtl":
+    {
+        "SimpleName": "$inText On Now Series Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    },
+    "onNowEpisodeTtl":
+    {
+        "SimpleName": "$inText On Now Episode Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inTextU'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    },
+    "onNowAirTimeTxt":
+    {
+        "SimpleName": "On Now Air Time: $inText",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+    },
+    "onNowEpisodeDescriptionTxt":
+    {
+        "SimpleName": "On Now Episode Description Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "onNowArrowBtn":
+    {
+        "SimpleName": "On Now Arrow Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'arrow_description'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/arrow\")"
+            }
+        }
+    }
+}

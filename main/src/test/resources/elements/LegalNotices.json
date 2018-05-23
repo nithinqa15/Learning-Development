@@ -1,0 +1,260 @@
+{
+    "legalNoticesTtl":
+    {
+        "SimpleName": "Legal Notices Title",
+        "iOS":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL NOTICES' OR wdName CONTAINS 'Legal Notices'"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            }
+        },
+        "Android":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"DERECHOS DE AUTOR\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"DERECHOS DE AUTOR\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"COPYRIGHT MODULE\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"COPYRIGHT COMPLIANCE NOTICE\")"
+            }
+        }
+    },
+    "legalNoticesBrTtl":
+    {
+        "SimpleName": "Legal Notices Brazilian Portuguese Title",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Direitos Autorais\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"DIREITOS AUTORAIS\")"
+            }
+        }
+    },
+    "legalNoticesBdy":
+    {
+        "SimpleName": "Legal Notices Body",
+        "iOS":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'copyright compliance policy'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Esta es la política oficial de cumplimiento'"
+            },
+            "CC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Esta es la política oficial de cumplimiento'"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'END USER LICENSE AGREEMENT'"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'END USER LICENSE AGREEMENT'"
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'END USER LICENSE AGREEMENT'"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'END USER LICENSE AGREEMENT'"
+            }
+        },
+        "Android":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"official copyright compliance policy\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la política oficial\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la política oficial\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"END USER LICENSE AGREEMENT\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Copyright Compliance Notice\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"official copyright compliance policy\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"official copyright compliance policy\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"official copyright compliance policy\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"official copyright compliance policy\")"
+            }
+        }
+    },
+    "legalNoticesBrBdy":
+    {
+        "SimpleName": "Legal Notices Brazilian Portuguese Body",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Política de observância dos direitos autorais\")"
+            }
+        }
+    },
+    "closedCaptionLnk":
+    {
+        "SimpleName": "Closed Caption Link",
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'CLOSED CAPTION CONTACT'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'CLOSED CAPTION CONTACT'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"CLOSED CAPTION CONTACT\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"CLOSED CAPTION CONTACT\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"CLOSED CAPTION CONTACT\")"
+            }
+        }
+    },
+    "endUserAgreementLnk":
+    {
+        "SimpleName": "End User Agreement Link",
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'END USER LICENSE AGREEMENT'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'END USER LICENSE AGREEMENT'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"END USER LICENSE AGREEMENT\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"END USER LICENSE AGREEMENT\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"END USER LICENSE AGREEMENT\")"
+            }
+        }
+    }
+}

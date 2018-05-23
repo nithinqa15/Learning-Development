@@ -1,0 +1,68 @@
+{
+  "uid" : "f34811a2f1e89671",
+  "name" : "swipeCarouselAndroidTest",
+  "title" : "Swipe carousel android test",
+  "time" : {
+    "start" : 1526604631597,
+    "stop" : 1526604816442,
+    "duration" : 184845
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "66330",
+    "url" : "66330"
+  },
+  "suite" : {
+    "uid" : "fb8e2432d1a6d943",
+    "name" : "VIMNNative",
+    "title" : "VIMNNative"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "VIMNNative"
+  }, {
+    "name" : "testMethod",
+    "value" : "swipeCarouselAndroidTest"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "All Mobile Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"
+  }, {
+    "name" : "host",
+    "value" : "Nithins-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "VIMNNative"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testSuite",
+    "value" : "VIMN Test Suite"
+  }, {
+    "name" : "feature",
+    "value" : "HomeScreen"
+  }, {
+    "name" : "thread",
+    "value" : "7218@Nithins-MacBook-Pro.local.pool-1-thread-1(16)"
+  }, {
+    "name" : "testId",
+    "value" : "66330"
+  } ],
+  "parameters" : [ ]
+}

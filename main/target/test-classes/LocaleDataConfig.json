@@ -1,0 +1,853 @@
+{
+    "en_us":
+    {
+        "country": "United States",
+        "cluster": "US",
+        "isoGeoCode": "US",
+        "ipAddress": "null",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "true",
+        "isBET": "true",
+        "isCMT": "true",
+        "isVH1": "true",
+        "isPARAMOUNT": "true",
+        "defaultProvider":
+        {
+            "name": "Optimum",
+            "username": "research39",
+            "password": "support39",
+            "noAuthZUsername": "research36",
+            "noAuthZPassword": "support36"
+        },
+        "optimum":
+        {
+            "name": "Optimum",
+            "username": "research39",
+            "password": "support39"
+        },
+        "armstrong":
+        {
+            "name": "Armstrong",
+            "username": "",
+            "password": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "vmn1_streamtest@vmn.com",
+            "password": "vmnstream"
+        },
+        "wow":
+        {
+            "name": "WOW",
+            "username": "Basictest2",
+            "password": "0testbasic2"
+        },
+        "att":
+        {
+            "name": "ATT",
+            "username": "Modelshop425@att.net",
+            "password": "ShopID425"
+        },
+        "serviceelectric":
+        {
+            "name": "Service Electric",
+            "username": "tvesuccess",
+            "password": "test1234"
+        },
+        "verizon":
+        {
+            "name": "Verizon",
+            "username": "telcouser1",
+            "password": "bizc_123"
+        },
+        "rcn":
+        {
+            "name": "RCN",
+            "username": "viacom_all_pass",
+            "password": "Viacom1"
+        },
+        "cox":
+        {
+            "name": "COX",
+            "username": "mmouse2",
+            "password": "edify841"
+        },
+        "spectrum":
+        {
+            "name": "Spectrum",
+            "username": "tve093",
+            "password": "V7MsZ9sh"
+        },
+        "mediacom":
+        {
+            "name": "Mediacom",
+            "username": "bmoffice@mediacombb.net",
+            "password": "mediacom1"
+        },
+        "brighthouse":
+        {
+            "name": "Brighthouse",
+            "username": "indyis",
+            "password": "myisisn1"
+        },
+        "frontier":
+        {
+            "name": "Frontier",
+            "username": "ftrfios11@frontier.com",
+            "password": "Frontier1"
+        },
+        "xfinity":
+        {
+            "name": "XFinity",
+            "username": "playplex2@gmail.com",
+            "password": "PASSword1111",
+            "invalidUsername": "blahblah@xyz.com",
+            "invalidPassword": "1234"
+
+        }
+    },
+    "es_mx":
+    {
+        "country": "Mexico",
+        "cluster": "Americas",
+        "isoGeoCode": "MX",
+        "ipAddress": "177.234.25.178",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Dish",
+            "username": "testmtv@dish.com.mx",
+            "password": "123456"
+        },
+        "megacable":
+        {
+            "name": "Megacable",
+            "username": "guillermorodgtz@hotmail.com",
+            "password": "eltiomeme"
+        },
+        "dish":
+        {
+            "name": "Dish",
+            "username": "testmtv@dish.com.mx",
+            "password": "123456"
+        },
+        "bluetogo":
+        {
+            "name": "BlueToGo",
+            "username": "tlbxauthnauthz@test.com",
+            "password": "testtlbx02"
+        },
+        "armstrong":
+        {
+            "name": "Armstrong",
+            "username": "",
+            "password": ""
+        }
+    },
+    "es_ar":
+    {
+        "country": "Argentina",
+        "cluster": "Americas",
+        "isoGeoCode": "AR",
+        "ipAddress": "24.232.255.255",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "luciana.zopatti@gmail.com",
+            "password": "riquelme.10",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "luciana.zopatti@gmail.com",
+            "password": "riquelme.10"
+        },
+        "telecentro":
+        {
+            "name": "Telecentro",
+            "username": "Viacom",
+            "password": "QazViacom"
+        }
+    },
+    "es_cl":
+    {
+        "country": "Chile",
+        "cluster": "Americas",
+        "isoGeoCode": "CL",
+        "ipAddress": "37.235.52.169",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "16475718-8",
+            "password": "dxa1987",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "16475718-8",
+            "password": "dxa1987"
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "14363721-2",
+            "password": "martina2020"
+        }
+    },
+    "es_co":
+    {
+        "country": "Colombia",
+        "cluster": "Americas",
+        "isoGeoCode": "CO",
+        "ipAddress": "179.50.60.119",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "79787511",
+            "password": "6789",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "79787511",
+            "password": "6789"
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "alejandranaranjo2610@hotmail.com",
+            "password": "dayancama"
+        }
+    },
+    "es_pe":
+    {
+        "country": "Peru",
+        "cluster": "Americas",
+        "isoGeoCode": "PE",
+        "ipAddress": "190.8.143.82",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "jvillaizan@directvla.com.pe",
+            "password": "julio10",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "jvillaizan@directvla.com.pe",
+            "password": "julio10"
+        }
+    },
+    "es_ve":
+    {
+        "country": "Venezuela",
+        "cluster": "Americas",
+        "isoGeoCode": "VE",
+        "ipAddress": "200.1.119.103",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "16082315",
+            "password": "16082315",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "directtv":
+        {
+            "name": "DirectTV",
+            "username": "16082315",
+            "password": "16082315"
+        }
+    },
+    "es_cr":
+    {
+        "country": "Costa Rica",
+        "cluster": "Americas",
+        "isoGeoCode": "CR",
+        "ipAddress": "190.112.222.167",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "ericko.alvarado@claro.com.gt",
+            "password": "1234567",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "ericko.alvarado@claro.com.gt",
+            "password": "1234567"
+        }
+    },
+    "es_sv":
+    {
+        "country": "El Salvador",
+        "cluster": "Americas",
+        "isoGeoCode": "SV",
+        "ipAddress": "190.120.6.131",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba"
+        }
+    },
+    "es_gt":
+    {
+        "country": "Guatemala",
+        "cluster": "Americas",
+        "isoGeoCode": "GT",
+        "ipAddress": "190.113.90.69",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba"
+        }
+    },
+    "es_hn":
+    {
+        "country": "Honduras",
+        "cluster": "Americas",
+        "isoGeoCode": "HN",
+        "ipAddress": "168.205.160.10",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba"
+        }
+    },
+    "es_ni":
+    {
+        "country": "Nicaragua",
+        "cluster": "Americas",
+        "isoGeoCode": "NI",
+        "ipAddress": "165.98.58.23",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "claro":
+        {
+            "name": "Claro",
+            "username": "nery.anzueto@claro.com.gt",
+            "password": "prueba"
+        }
+    },
+    "pt_br":
+    {
+        "country": "Brazil",
+        "cluster": "Americas",
+        "isoGeoCode": "BR",
+        "ipAddress": "177.54.151.54",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Sky",
+            "username": "skyteste26",
+            "password": "1$23K4y5",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "sky":
+        {
+            "name": "Sky",
+            "username": "skyteste26",
+            "password": "1$23K4y5"
+        }
+    },
+    "de_de":
+    {
+        "country": "Germany",
+        "cluster": "UKNEE",
+        "isoGeoCode": "DE",
+        "ipAddress": "31.6.35.15",
+        "isBET": "true",
+        "isMTV": "false",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "en_sg":
+    {
+        "country": "Singapore",
+        "cluster": "APAC",
+        "isoGeoCode": "SG",
+        "ipAddress": "175.41.140.119",
+        "isMTV": "false",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Singtel",
+            "username": "viacom1@singtel.com",
+            "password": "viacom1",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "singtel":
+        {
+            "name": "Singtel",
+            "username": "viacom1@singtel.com",
+            "password": "viacom1"
+        }
+    },
+    "pl_pl":
+    {
+        "country": "Poland",
+        "cluster": "UKNEE",
+        "isoGeoCode": "PL",
+        "ipAddress": "151.236.25.16",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": ""
+        }
+    },
+    "de_at":
+    {
+        "country": "Austria",
+        "cluster": "UKNEE",
+        "isoGeoCode": "AT",
+        "ipAddress": "192.36.38.40",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "da_dk":
+    {
+        "country": "Denmark",
+        "cluster": "UKNEE",
+        "isoGeoCode": "DK",
+        "ipAddress": "185.45.148.0",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Boxer",
+            "username": "boxertest002@mtvplay.tv",
+            "password": "any",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "boxer":
+        {
+            "name": "Boxer",
+            "username": "boxertest002@mtvplay.tv",
+            "password": "any"
+        },
+        "stofa":
+        {
+            "name": "Stofa",
+            "username": "stofadev009@gmail.com",
+            "password": "devViacom"
+        }
+    },
+    "no_no":
+    {
+        "country": "Norway",
+        "cluster": "UKNEE",
+        "isoGeoCode": "NO",
+        "ipAddress": "82.102.22.117",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "RiksTV",
+            "username": "anders.kalland@rikstv.no",
+            "password": "1234",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "rikstv":
+        {
+            "name": "RiksTV",
+            "username": "anders.kalland@rikstv.no",
+            "password": "1234"
+        },
+        "get":
+        {
+            "name": "Get",
+            "username": "test-mtv-login4",
+            "password": "MTVpassword"
+        }
+    },
+    "nl_be":
+    {
+        "country": "Belgium",
+        "cluster": "UKNEE",
+        "isoGeoCode": "BE",
+        "ipAddress": "62.182.62.119",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "nl_nl":
+    {
+        "country": "Netherlands",
+        "cluster": "UKNEE",
+        "isoGeoCode": "NL",
+        "ipAddress": "84.22.96.112",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "es_pa":
+    {
+        "country": "Panama",
+        "cluster": "Americas",
+        "isoGeoCode": "PA",
+        "ipAddress": "190.14.37.108",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "CableOnda",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "CableOnda":
+        {
+            "name": "CableOnda",
+            "username": "",
+            "password": ""
+        }
+    },
+    "es_uy":
+    {
+        "country": "Uruguay",
+        "cluster": "Americas",
+        "isoGeoCode": "UY",
+        "ipAddress": "190.64.128.0",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "es_ec":
+    {
+        "country": "Ecuador",
+        "cluster": "Americas",
+        "isoGeoCode": "EC",
+        "ipAddress": "190.123.10.0",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "DirectTV",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        },
+        "Claro":
+        {
+            "name": "Claro",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "es_do":
+    {
+        "country": "Dominican Republic",
+        "cluster": "Americas",
+        "isoGeoCode": "DO",
+        "ipAddress": "186.120.128.0",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Claro",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "es_bo":
+    {
+        "country": "Bolivia",
+        "cluster": "Americas",
+        "isoGeoCode": "BO",
+        "ipAddress": "186.121.192.0",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "uk_uk":
+    {
+        "country": "United Kingdom",
+        "cluster": "UKNEE",
+        "isoGeoCode": "GB",
+        "ipAddress": "37.152.32.0",
+        "isMTV": "true",
+        "isCC": "true",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Virgin Media",
+            "username": "",
+            "password": "",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    },
+    "es_es":
+    {
+        "country": "Spain",
+        "cluster": "UKNEE",
+        "isoGeoCode": "ES",
+        "ipAddress": "91.142.210.130",
+        "isMTV": "true",
+        "isCC": "false",
+        "isTVLand": "false",
+        "isBET": "true",
+        "isCMT": "false",
+        "isVH1": "false",
+        "isPARAMOUNT": "false",
+        "defaultProvider":
+        {
+            "name": "Bankia",
+            "username": "47020049E",
+            "password": "28022018",
+            "noAuthZUsername": "",
+            "noAuthZPassword": ""
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1526604631597,
+    "stop" : 1526604816442,
+    "duration" : 184845
+  },
+  "testSuites" : [ {
+    "uid" : "fb8e2432d1a6d943",
+    "name" : "VIMNNative",
+    "title" : "VIMNNative",
+    "time" : {
+      "start" : 1526604631597,
+      "stop" : 1526604816442,
+      "duration" : 184845
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f34811a2f1e89671",
+      "name" : "swipeCarouselAndroidTest",
+      "title" : "Swipe carousel android test",
+      "time" : {
+        "start" : 1526604631597,
+        "stop" : 1526604816442,
+        "duration" : 184845
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "eb5d2170fe1e16e6",
+      "name" : "swipeCarouselAndroidTest",
+      "title" : "Swipe carousel android test",
+      "time" : {
+        "start" : 1526604631597,
+        "stop" : 1526604816442,
+        "duration" : 184845
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

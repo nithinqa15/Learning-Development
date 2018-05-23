@@ -1,0 +1,237 @@
+{
+    "profileBtn":
+    {
+        "SimpleName": "Profile Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Profile'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/btn_info\")"
+            }
+        }
+    },
+    "messageCenterHeader":
+    {
+        "SimpleName": "Message Center Header",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevicesiOS10": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Message Center'",
+                "AllDevicesiOS11": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'Message Center'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Message Center\")"
+            }
+        }
+    },
+    "apptentiveCloseBtn":
+    {
+        "SimpleName": "Apptentive Close Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Close'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/close_button\")"
+            }
+        }
+    },
+    "attachBtn":
+    {
+        "SimpleName": "Attach Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Attach'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/attach_button\")"
+            }
+        }
+    },
+    "sendBtn":
+    {
+        "SimpleName": "Send Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Send'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/send_button\")"
+            }
+        }
+    },
+    "newMessageTxt":
+    {
+        "SimpleName": "New Message Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'New Message'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "newMessageBtn":
+    {
+        "SimpleName": "New Message Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'New Message'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"New Message\")"
+            }
+        }
+    },
+    "detailedFeedbackBtn":
+    {
+        "SimpleName": "Detailed Feedback Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Please leave detailed feedback'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/send_button\")"
+            }
+        }
+    },
+    "discardBtn":
+    {
+        "SimpleName": "Discard Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Discard'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"detailed feedback\")"
+            }
+        }
+    },
+    "composeBtn":
+    {
+        "SimpleName": "Compose Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Compose'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/composing_fab\")"
+            }
+        }
+    },
+    "respondMessageBtn":
+    {
+        "SimpleName": "Respond Message Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'We will respond to your message soon.'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"respond to your message\")"
+            }
+        }
+    },
+    "skipBtn":
+    {
+        "SimpleName": "Skip Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Skip'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/btn_skip\")"
+            }
+        }
+    },
+    "whoAreWeDiag":
+    {
+        "SimpleName": "Who Are We Diag",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Who are we speaking with?'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Who are we speaking\")"
+            }
+        }
+    }
+}

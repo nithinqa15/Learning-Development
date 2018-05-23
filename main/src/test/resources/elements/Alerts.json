@@ -1,0 +1,38 @@
+{
+    "allowBtn":
+    {
+        "SimpleName": "Allow Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Allow'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "dontAllowBtn":
+    {
+        "SimpleName": "DontAllow Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Don’t Allow'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    }
+}

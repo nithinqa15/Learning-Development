@@ -1,0 +1,35 @@
+[INFO  2018-05-17T20:46:12,069 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.6-SNAPSHOT 
+[INFO  2018-05-17T20:46:12,192 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2018-05-17T20:46:12,226 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2018-05-17T20:46:12,358 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:15001 
+[INFO  2018-05-17T20:46:16,533 net.lightbody.bmp.proxy.ProxyManager] (qtp651100072-19) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-17T20:46:16,725 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-17T20:46:16,766 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-19) Proxy listening with TCP transport 
+[INFO  2018-05-17T20:46:16,848 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-19) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[INFO  2018-05-17T20:47:19,752 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-17) Shutting down proxy server gracefully 
+[INFO  2018-05-17T20:47:19,753 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-17) Closing all channels (graceful) 
+[INFO  2018-05-17T20:47:19,758 org.littleshoot.proxy.impl.ServerGroup] (qtp651100072-17) Shutting down server group event loops (graceful) 
+[INFO  2018-05-17T20:47:21,983 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-17) Done shutting down proxy server 
+[INFO  2018-05-17T20:48:09,496 net.lightbody.bmp.proxy.ProxyManager] (qtp651100072-18) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-17T20:48:09,497 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-17T20:48:09,498 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-18) Proxy listening with TCP transport 
+[INFO  2018-05-17T20:48:09,499 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-18) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[INFO  2018-05-17T20:49:10,776 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Shutting down proxy server gracefully 
+[INFO  2018-05-17T20:49:10,776 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Closing all channels (graceful) 
+[INFO  2018-05-17T20:49:10,777 org.littleshoot.proxy.impl.ServerGroup] (qtp651100072-16) Shutting down server group event loops (graceful) 
+[INFO  2018-05-17T20:49:12,984 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Done shutting down proxy server 
+[INFO  2018-05-17T20:50:32,415 net.lightbody.bmp.proxy.ProxyManager] (qtp651100072-20) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-17T20:50:32,417 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-17T20:50:32,418 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-20) Proxy listening with TCP transport 
+[INFO  2018-05-17T20:50:32,418 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-20) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[WARN  2018-05-17T20:50:44,350 net.lightbody.bmp.util.HttpObjectUtil] (LittleProxy-2-ProxyToServerWorker-2) No character set declared in HTTP message. Replacing text using default charset UTF-8. 
+[WARN  2018-05-17T20:50:44,355 net.lightbody.bmp.util.HttpObjectUtil] (LittleProxy-2-ProxyToServerWorker-2) No character set declared in HTTP message. Replacing text using default charset UTF-8. 
+[WARN  2018-05-17T20:50:46,072 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-2-ProxyToServerWorker-7) No content type specified in response from /conversations/5afe23656df4ed8b790003a6/app_release. Content will be treated as application/octet-stream 
+[WARN  2018-05-17T20:51:44,445 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-2-ProxyToServerWorker-1) No content type specified in response from /mobile/v3/data. Content will be treated as application/octet-stream 
+[INFO  2018-05-17T20:51:50,168 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-2-ProxyToServerWorker-3) (AWAITING_INITIAL) [id: 0x192aa630, L:/172.20.10.4:60562 - R:mb.mtvnservices.com/54.243.113.132:80]: An IOException occurred on ProxyToServerConnection: Connection reset by peer 
+[INFO  2018-05-17T20:51:50,169 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-2-ProxyToServerWorker-3) (AWAITING_INITIAL) [id: 0x192aa630, L:/172.20.10.4:60562 - R:mb.mtvnservices.com/54.243.113.132:80]: Disconnecting open connection to server 
+[WARN  2018-05-17T20:52:44,061 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-2-ProxyToServerWorker-1) No content type specified in response from /mobile/v3/data. Content will be treated as application/octet-stream 
+[INFO  2018-05-17T20:53:40,599 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Shutting down proxy server gracefully 
+[INFO  2018-05-17T20:53:40,599 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Closing all channels (graceful) 
+[INFO  2018-05-17T20:53:40,601 org.littleshoot.proxy.impl.ServerGroup] (qtp651100072-16) Shutting down server group event loops (graceful) 
+[INFO  2018-05-17T20:53:42,809 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp651100072-16) Done shutting down proxy server 

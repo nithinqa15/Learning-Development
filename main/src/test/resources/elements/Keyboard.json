@@ -1,0 +1,90 @@
+{
+    "closeBtn":
+    {
+        "SimpleName": "Hide Keyboard Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Hide keyboard'"
+            }
+        }
+    },
+    "searchBtn":
+    {
+        "SimpleName": "Search Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+
+            }
+        }
+    },
+    "deleteBtn":
+    {
+        "SimpleName": "Delete Key",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeKey[15]"
+            }
+        }
+    },
+    "returnBtn":
+    {
+        "SimpleName": "Return Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Return' OR wdName == 'return'"
+            }
+        }
+    },
+    "previousBtn":
+    {
+        "SimpleName": "Previous Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Previous'"
+            }
+        }
+    },
+    "nextBtn":
+    {
+        "SimpleName": "Next Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Next'"
+            }
+        }
+    },
+    "doneBtn":
+    {
+        "SimpleName": "Done Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Done'"
+            }
+        }
+    },
+    "GoBtn":
+    {
+        "SimpleName": "Go Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Go'"
+            }
+        }
+    }
+}

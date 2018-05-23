@@ -1,0 +1,101 @@
+{
+    "playAdsBtn":
+    {
+        "SimpleName": "Play Ads Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_play_pause\")"
+            }
+        }
+    },
+    "pauseAdsBtn":
+    {
+        "SimpleName": "Pause Ads Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+              "AllApps":
+              {
+                  "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_play_pause\")"
+              }
+        }
+    },
+    "learnMoreBtn":
+    {
+        "SimpleName": "Learn More Button",
+        "iOS":
+        {
+              "AllApps":
+              {
+                  "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Learn More'"
+              }
+        },
+        "Android":
+        {
+              "AllApps":
+              {
+                  "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fw_learn_more\")"
+              }
+         }
+    },
+    "durationTimer":
+    {
+        "SimpleName": "Duration Timer",
+        "iOS":
+        {
+              "AllApps":
+              {
+                  "AllDevices": "XPath:://XCUIElementTypeStaticText[\"$inText\"]"
+              }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fw_time_remaining\")"
+            }
+        }
+    },
+    "fwControlsBar": {
+        "SimpleName": "Fw Controls Bar",
+        "Android": {
+            "AllApps": {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fw_ad_frame\")"
+            }
+        }
+    },
+    "blackAdOverlay":
+    {
+        "SimpleName": "Black Ad Overlay",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fw_c\")"
+            }
+        }
+    }
+
+}

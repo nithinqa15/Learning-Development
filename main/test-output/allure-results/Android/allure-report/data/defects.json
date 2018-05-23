@@ -1,0 +1,11 @@
+{
+  "defectsList" : [ {
+    "title" : "Defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Possible defects (debug)",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

@@ -1,0 +1,255 @@
+{
+    "privacyPolicyTtl":
+    {
+        "SimpleName": "Privacy Policy Title",
+        "iOS":
+        {
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY & AD CHOICES"
+            },
+            "BET":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "CMT":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY & AD CHOICES"
+            },
+            "VH1":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AccessibilityId::PRIVACY POLICY"
+            }
+        },
+        "Android":
+        {
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la Política de Privacidad\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la Política de Privacidad\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY & AD CHOICES\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY & AD CHOICES\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            }
+        }
+    },
+    "privacyPolicyBrTtl":
+    {
+        "SimpleName": "Privacy Police Brazilian Portuguese Title",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Política de Privacidade\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"POLÍTICA DE PRIVACIDADE\")"
+            }
+        }
+    },
+    "privacyPolicyBdy":
+    {
+        "SimpleName": "Privacy Policy Body",
+        "iOS":
+        {
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Esta es la Política de Privacidad'"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Esta es la Política de Privacidad'"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            }
+        },
+        "Android":
+        {
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la Política de Privacidad\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta es la Política de Privacidad\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            }
+        }
+    },
+    "privacyPolicyBrBdy":
+    {
+        "SimpleName": "Privacy Policy Brazilian Portuguese Body",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Esta é a política de privacidade\")"
+            }
+        }
+    },
+    "privacyPolicyLnk":
+    {
+        "SimpleName": "Privacy Policy Link",
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'PRIVACY POLICY'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'PRIVACY POLICY'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY\")"
+            }
+        }
+    },
+    "adChoicesLnk":
+    {
+        "SimpleName": "Ad Choices Link",
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'AD CHOICES'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName == 'AD CHOICES'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"AD CHOICES\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"AD CHOICES\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"AD CHOICES\")"
+            }
+        }
+    }
+}

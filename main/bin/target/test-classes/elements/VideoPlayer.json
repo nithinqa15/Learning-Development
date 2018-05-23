@@ -1,0 +1,407 @@
+{
+    "playerCtr":
+    {
+        "SimpleName": "Player Container",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'PlayerView'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/reset_timer_pane\")"
+            }
+        }
+    },
+    "fullscreenPlayerCtr":
+    {
+        "SimpleName": "Fullscreen Player Container",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Fullscreen Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/video_player\")"
+            }
+        }
+    },
+    "largePlayBtn":
+    {
+        "SimpleName": "Large Play Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Play'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/poster_play_image\")"
+            }
+        }
+    },
+    "smallPlayBtn":
+    {
+        "SimpleName": "Small Play Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"start video\")"
+            }
+        }
+    },
+    "smallPauseBtn":
+    {
+        "SimpleName": "Small Pause Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"stop video\")"
+            }
+        }
+    },
+    "fullscreenSmallPlayBtn":
+    {
+        "SimpleName": "Fullscreen Small Play Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/play_pause_button\")"
+            }
+        }
+    },
+    "fullscreenSmallPauseBtn":
+    {
+        "SimpleName": "Fullscreen Small Pause Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Main Play Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/play_pause_button\")"
+            }
+        }
+    },
+    "playCtrBtn":
+    {
+        "SimpleName": "Video Player Play Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_play_pause\")"
+            }
+        }
+    },
+    "progressTxt":
+    {
+        "SimpleName": "Progress Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeProgressIndicator' AND wdName == 'Progress'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_current_time\")"
+            }
+        }
+    },
+    "progressSpinner":
+    {
+        "SimpleName": "Progress Spinner",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/loading_panel\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'control_loadingWhite'"
+            }
+        }
+    },
+    "durationTxt":
+    {
+        "SimpleName": "Duration Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Duration Label'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_end_time\")"
+            }
+        }
+    },
+    "scrubberBar":
+    {
+        "SimpleName": "Scrubber Bar",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'Scrubber'"
+
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_progress_bar\")"
+            }
+        }
+    },
+    "maximizeBtn":
+    {
+        "SimpleName": "Maximize Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Fullscreen Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_full_screen_selector\")"
+            }
+        }
+    },
+    "minimizeBtn":
+    {
+        "SimpleName": "Minimize Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Fullscreen Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/controls_full_screen_selector\")"
+            }
+        }
+    },
+    "playFromBeginningBtn":
+    {
+        "SimpleName": "Play From Beginning Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Tap to Play from Beginning'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Tap to play from beginning\")"
+            }
+        }
+    },
+    "airPlayBtn":
+    {
+        "SimpleName": "Airplay Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Airplay Button'"
+            }
+        }
+    },
+    "contentNotAvailableIcn":
+    {
+        "SimpleName": "Content Not Available Icon",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/content_not_available_icon\")"
+            }
+        }
+    },
+    "contentNotAvailableTxt":
+    {
+        "SimpleName": "Content Not Available Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Content not available' OR wdName CONTAINS \"Sorry, this video is not\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/error_slate\")"
+            }
+        }
+    },
+    "slowInternetConnectionTxt":
+    {
+        "SimpleName": "Slow Internet Connection Warning Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Your internet connection is too slow to play video.'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Your internet connection is too slow to play video.\")"
+            }
+        }
+    },
+    "retryBtn":
+    {
+        "SimpleName": "Retry Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"RETRY\")"
+            }
+        }
+    },    
+    "liveTVPlayer":
+    {
+        "SimpleName": "LiveTV Player",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/show_hide_pane\")"
+            }
+        }
+    },
+    "captionsBtn":
+    {
+        "SimpleName": "Captions Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Captions Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "videoTitle":
+    {
+        "SimpleName": "Video Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Title Label'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/video_title_text\")"
+            }
+        }
+    },
+    "signInBtn":
+    {
+        "SimpleName": "Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdLabel == 'SIGN IN'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    }
+}

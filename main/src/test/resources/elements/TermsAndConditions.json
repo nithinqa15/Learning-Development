@@ -1,0 +1,229 @@
+{
+    "termsOfUseTtl":
+    {
+        "SimpleName": "Terms of Use Title",
+        "iOS":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::TERMS & CONDITIONS"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AccessibilityId::TERMS CONDITIONS"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::TERMS & CONDITIONS"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AccessibilityId::TERMS CONDITIONS"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AccessibilityId::TERMS & CONDITIONS"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AccessibilityId::TERMS CONDITIONS"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AccessibilityId::Terms of Use"
+            },
+            "CMT":
+            {
+                "AllDevices": "AccessibilityId::Terms of Use"
+            },
+            "VH1":
+            {
+                "AllDevices": "AccessibilityId::TERMS & CONDITIONS"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AccessibilityId::TERMS & CONDITIONS"
+            }
+        },
+        "Android":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Términos y Condiciones de Uso\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TÉRMINOS Y CONDICIONES DE USO\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS OF USE\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Términos de Uso\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TÉRMINOS DE USO\")"
+            },
+             "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS OF USE\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS OF USE\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Terms Of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Terms of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Terms of Use\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            }
+        }
+    },
+    "termsOfUseBrTtl":
+    {
+        "SimpleName": "Terms of use Brazilian Portuguese Title",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Termos de Uso\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMOS DE USO\")"
+            }
+        }
+    },
+    "termsOfUseBdy":
+    {
+        "SimpleName": "Terms of Use Body",
+        "iOS":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEA ATENTAMENTE ESTAS CONDICIONES DE USO DEBIDO A QUE DESCRIBEN'"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEA ATENTAMENTE ESTAS CONDICIONES DE USO DEBIDO A QUE DESCRIBEN'"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS'"
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'TERMS OF USE AGREEMENT'"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'TERMS OF USE AGREEMENT'"
+            }
+        },
+        "Android":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Este es el Acuerdo de Condiciones de Uso\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Este es el Acuerdo de Condiciones de Uso\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE AGREEMENT\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE AGREEMENT\")"
+            } 
+        }
+    },
+    "termsOfUseBrBdy":
+    {
+        "SimpleName": "Terms of use Brazilian Portuguese Body",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"POR FAVOR, LEIA ESTES TERMOS DE USO CUIDADOSAMENTE PORQUE ELES DESCREVEM SEUS DIREITOS E RESPONSABILIDADES\")"
+            }
+        }
+    },
+    "termsOfUseLnk":
+    {
+        "SimpleName": "Terms of Use Link",
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'TERMS OF USE' OR wdName == 'Terms of Use'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'TERMS OF USE' OR wdName == 'Terms of Use'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE\")"
+            }
+        }
+    }
+}

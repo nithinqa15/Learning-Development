@@ -1,0 +1,20 @@
+{
+    "notAvailableInThisCountryTxt":
+    {
+        "SimpleName": "Not Available In This Country Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS 'NOT AVAILABLE IN THIS COUNTRY.'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"is not available in this country\")"
+            }
+        }
+    }
+}

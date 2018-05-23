@@ -1,0 +1,1 @@
+appium -a nodeIPAddress -p 4733 -U 5e169798bb10aaf07ea60e183f41a4d5dd4a98f4 --command-timeout 180 --nodeconfig $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/NodeConfigTablet_iOS.json

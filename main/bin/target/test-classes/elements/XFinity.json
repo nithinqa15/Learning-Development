@@ -1,0 +1,564 @@
+{
+    "signInRegisterBtn":
+    {
+        "SimpleName": "Sign In/Register Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'SIGN IN/REGISTER' OR wdName CONTAINS 'sign in/register' OR wdName CONTAINS 'SIGN IN / REGISTER' OR wdName CONTAINS 'sign in / register'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_fp_email_btn\")"
+            }
+        }
+    },
+    "facebookWeb":
+    {
+        "SimpleName": "Facebook Web View",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://UIAWebView"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "XPath:://android.widget.LinearLayout[@resource-id='com.facebook.katana:id/login_root']"
+            },
+            "CMT":
+            {
+                "AllDevices": "XPath:://android.widget.LinearLayout[@resource-id='com.facebook.katana:id/login_root']"
+            },
+            "VH1":
+            {
+                "AllDevices": "XPath:://android.widget.LinearLayout[@resource-id='com.facebook.katana:id/login_root']"
+            }
+        }
+    },
+    "okAlertBtn":
+    {
+        "SimpleName": "OK Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'OK' OR wdName == 'ok'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"OK\")"
+            }
+        }
+    },
+    "twitterCancelBtn":
+    {
+        "SimpleName": "Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Cancel'"
+            }
+        }
+    },
+    "signInCancelBtn":
+    {
+        "SimpleName": "Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Cancel' OR wdName == 'CANCEL'"
+            }
+        }
+    },
+    "createNowCancelBtn":
+    {
+        "SimpleName": "Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'CANCEL' OR wdName == 'Cancel'"
+            }
+        }
+    },
+    "signInBtn":
+    {
+        "SimpleName": "Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'SIGN IN'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.Button[@text='Sign In']",
+                "AllDevicesAndroid7": "XPath:://android.widget.Button[@text='SIGN IN']"
+            }
+        }
+    },
+    "createOneNowBtn":
+    {
+        "SimpleName": "Create One Now Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'CREATE' OR wdName CONTAINS 'Create'"
+            }
+        }
+    },
+    "emailTxb":
+    {
+        "SimpleName": "Email Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField' AND wdValue == 'Email'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Email Address\")"
+            }
+        }
+    },
+    "passwordTxb":
+    {
+        "SimpleName": "Password Text Box",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSecureTextField' AND wdValue == 'Password'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.EditText[@password='true']"
+            }
+        }
+    },
+    "signUpEmailTxb":
+    {
+        "SimpleName": "Sign Up Email Text Box",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Email\")"
+            }
+        }
+    },
+    "invalidEmailPasswordTxt":
+    {
+        "SimpleName": "Invalid Email & Password Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'Invalid' OR wdName CONTAINS 'Invalid'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Invalid user/password combination\")"
+            }
+        }
+    },
+    "emptyEmailMsg":
+    {
+        "SimpleName": "Empty Email Error Message",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Empty Email\")"
+            }
+        }
+    },
+    "emptyPasswordMsg":
+    {
+        "SimpleName": "Empty Password Error Message",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Empty Password\")"
+            }
+        }
+    },
+    "signUpBtn":
+    {
+        "SimpleName": "Sign Up Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Sign Up\")"
+            }
+        }
+    },
+    "dateOfBirthTxb": {
+        "SimpleName": "Date of Birth Textbox",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Date of birth\")"
+            }
+        }
+    },
+    "okayBtn":
+    {
+        "SimpleName": "OKAY Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'OKAY' OR wdName == 'Okay'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"OK\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"OK\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"OK\")"
+            }
+        }
+    },
+    "facebookBtn":
+    {
+        "SimpleName": "Facebook Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'FACEBOOK' OR wdName CONTAINS 'facebook'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"facebook\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"FACEBOOK\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"facebook\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"FACEBOOK\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"facebook\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"FACEBOOK\")"
+            }
+        }
+    },
+    "twitterBtn":
+    {
+        "SimpleName": "Twitter Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'TWITTER'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"twitter\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TWITTER\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"twitter\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TWITTER\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"twitter\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TWITTER\")"
+            }
+        }
+    },
+    "twitterOAuthScreen":
+    {
+        "SimpleName": "Twitter Authorise an Application Screen",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Twitter / Authorize an application\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'Twitter / Authorize an application'"
+            }
+        }
+    },
+    "xFinitySignInBtn":
+    {
+        "SimpleName": "xFinity Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'SIGN IN'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.Button[@text='Sign In']",
+                "AllDevicesAndroid7": "XPath:://android.widget.Button[@text='SIGN IN']"
+            }
+        }
+    },
+    "xFinitySignUpEmailTxb":
+    {
+        "SimpleName": "xFinity Sign up Email Textbox",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Email\")"
+            }
+        }
+    },
+    "xFinitySignUpPasswordTxb":
+    {
+        "SimpleName": "xFinity Sign up Password Textbox",
+        "iOS":
+        {
+            "AllApps":
+            {
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "xFinityDisplayNameTxb":
+    {
+        "SimpleName": "xFinity Display Name Textbox",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Display Name\")"
+            }
+        }
+    },
+    "xFinityMaleBtn":
+    {
+        "SimpleName": "xFinity Male Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "xFinityBirthdayTitleBtn":
+    {
+        "SimpleName": "xFinity Birthday Title Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/alertTitle\")"
+            }
+        }
+    },
+    "xFinityBirthdayPickerYearBtn":
+    {
+        "SimpleName": "xFinity Birthday Picker Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/date_picker_header_year\")"
+            }
+        }
+    },
+    "xFinityBirthdayFirstYearBtn":
+    {
+        "SimpleName": "xFinity Birthday First Year Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/text1\")"
+            }
+        }
+    },
+    "xFinityBirthdayCancelBtn":
+    {
+        "SimpleName": "xFinity Birthday Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/button2\")"
+            }
+        }
+    },
+    "xFinityBirthdayOKBtn":
+    {
+        "SimpleName": "xFinity Birthday OK Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/button1\")"
+            }
+        }
+    },
+    "xFinityZipcodeTxb":
+    {
+        "SimpleName": "xFinity Zipcode Textbox",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Zip Code\")"
+            }
+        }
+    },
+    "xFinityDoneBtn":
+    {
+        "SimpleName": "xFinity Done Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"DONE\")"
+            }
+        }
+    },
+    "xFinitySignInSuccessTxt":
+    {
+        "SimpleName": "xFinity Sign In Success Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"You have successfully signed in\")"
+            }
+        }
+    }
+}

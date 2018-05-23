@@ -1,0 +1,13 @@
+{
+	"freePreviewBtn": 
+	{
+		"SimpleName": "Free Preview Button",
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_fp_start_button\")"
+			}
+		}
+	}
+}

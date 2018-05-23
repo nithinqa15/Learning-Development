@@ -1,0 +1,517 @@
+{
+    "tvProviderTtl":
+    {
+        "SimpleName": "TV Provider Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'TV PROVIDER'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"TV provider\")"
+            }
+        }
+    },
+    "providerTtl":
+    {
+        "SimpleName": "$inText Provider Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "signInBtn":
+    {
+        "SimpleName": "Sign In Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'SIGN IN'"
+            }
+        },
+        "Android":
+        {
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"subscribe\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            },
+           	"PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign in with credentials\")"
+            }
+        }
+    },
+    "signOutBtn":
+    {
+        "SimpleName": "Sign Out Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'SIGN OUT'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"sign out\")"
+            }
+        }
+    },
+    "autoPlayTgl":
+    {
+        "SimpleName": "Auto Play Toggle",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSwitch' AND wdName == 'Autoplay'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/auto_play\")"
+            }
+        }
+    },
+    "autoPlayClipsTgl":
+    {
+        "SimpleName": "Auto Play Clips Toggle",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSwitch' AND wdName == 'Autoplay Clips'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/clips_auto_play\")"
+            }
+        }
+    },
+    "cellularTgl":
+    {
+        "SimpleName": "Cellular Play Toggle",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeSwitch' AND wdName == 'Cellular Video Playback'"
+            }
+        },
+        "Android":
+        {
+           "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/cellular_video_playback\")"
+            }
+        }
+    },
+    "privacyPolicyBtn":
+    {
+        "SimpleName": "Privacy Policy Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'PRIVACY' OR wdName CONTAINS 'Privacy'"
+            }
+        },
+        "Android":
+        {
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"PRIVACY POLICY\")"
+            },
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Privacy Policy & Ad Choices\")"
+            }
+        }
+    },
+    "termsAndConditionsBtn":
+    {
+        "SimpleName": "Terms & Conditions Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'TERMS OF' OR wdName CONTAINS 'Terms'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms of Use\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms of Use\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms of Use\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS & CONDITIONS\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::textContains(\"TERMS & CONDITIONS\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS & CONDITIONS\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS & CONDITIONS\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS & CONDITIONS\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms & Conditions\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TERMS & CONDITIONS\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Terms of Use\")"
+            }
+        }
+    },
+    "legalNoticesBtn":
+    {
+        "SimpleName": "Legal Notices Button",
+        "iOS":
+        {
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Legal Notices'"
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            },
+             "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            },
+             "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'LEGAL TERMS' OR wdName CONTAINS 'Legal Terms'"
+            }
+        },
+        "Android":
+        {
+            "TVLand":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Terms & Notices\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Terms & Notices\")"
+            },
+            "VH1":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Terms & Notices\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "BET_INTL":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Notices\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"LEGAL NOTICES\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Legal Terms & Notices\")"
+            }
+        }
+    },
+    "contactBtn":
+    {
+        "SimpleName": "Contact Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'CONTACT' OR wdName == 'Contact'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Contact\")"
+            }
+        }
+    },
+    "providerLogoImg":
+    {
+        "SimpleName": "Provider Logo Image",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeImage[1]"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/current_provider_logo\")"
+            }
+        }
+    },
+    "buildVersion":
+    {
+        "SimpleName": "Build Version",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'Build' OR wdName CONTAINS 'build'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "AndroidUIAutomator::resourceId(\"$inPackage:id/fragment_settings_version_value\")"
+            }
+        }
+    },
+    "backBtn":
+    {
+        "SimpleName": "Back Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Close'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "Xpath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        }
+    },
+    "pleaseWaitTxt":
+    {
+        "SimpleName": "Please Wait Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"PLEASE WAIT\")"
+            }
+        }
+    },
+    "tvProviderSectionTtl":
+    {
+        "SimpleName": "TV Provider Section Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'TV PROVIDER ACCOUNT'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"TV provider account\")"
+            }
+        }
+    },
+    "videoPlayBackSectionTtl":
+    {
+        "SimpleName": "Video Playback Section Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'VIDEO PLAYBACK'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Video playback\")"
+            }
+        }
+    },
+    "helpSectionTtl":
+    {
+        "SimpleName": "help Section Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'HELP'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Help\")"
+            }
+        }
+    }
+}

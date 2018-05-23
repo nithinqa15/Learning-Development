@@ -1,0 +1,743 @@
+{
+	"viewAllProvidersBtn":
+	{
+		"SimpleName": "View All Providers Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'VIEW ALL PROVIDERS'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_view_all_providers_btn\")"
+			}
+		}
+	},
+	"backBtn":
+	{
+		"SimpleName": "Back Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			}
+		  },
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "XPath:://android.widget.ImageButton[@content-desc='Navigate up']"
+			}
+		}
+	},
+	"closeBtn":
+	{
+		"SimpleName": "Close Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon close'"
+			}
+		  },
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": " "
+			}
+		}
+	},
+	"fromFranchiseBackBtn":
+	{
+		"SimpleName": "From Franchise Back Button",
+		"iOS":
+		{
+			"TVLand":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"CC_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"CC_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"MTV_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"MTV_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"BET_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"CMT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"VH1":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			},
+			"PARAMOUNT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'icon back'"
+			}
+		}
+	},
+	"attProviderBtn":
+	{
+		"SimpleName": "AT&T Provider Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE ATT Logo'"
+			}
+		  },
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE ATT Logo']"
+			}
+		}
+	},
+	"blueToGoProviderBtn":
+	{
+		"SimpleName": "Blue To Go Provider Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE skymx Logo'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE skymx Logo']"
+			}
+		}
+	},
+	"brighthouseProviderBtn":
+	{
+	  	"SimpleName": "Brighthouse Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE Brighthouse Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE Brighthouse Logo']"
+			}
+	  	}
+	},
+	"claroProviderBtn":
+	{
+		"SimpleName": "Claro Provider Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName CONTAINS 'TVE cla'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+			  	"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE cla_$inTextL Logo']"
+			}
+		}
+	},
+	"coxProviderBtn":
+	{
+		"SimpleName": "Cox Provider Button",
+		"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE Cox Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE Cox Logo']"
+			}
+	  	}
+	},
+	"directTVProviderBtn":
+	{
+	  	"SimpleName": "DirectTV Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE dtv Logo' OR wdName == 'TVE DTV Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE DTV Logo']"
+			}
+	  	}
+	},
+	"dishProviderBtn":
+	{
+	  	"SimpleName": "Dish Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE dsh Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE dsh Logo']"
+			}
+	  	}
+	},
+	"frontierProviderBtn":
+	{
+	  	"SimpleName": "Frontier Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE FRONTIER Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE FRONTIER Logo']"
+			}
+	  	}
+	},
+	"mediacomProviderBtn":
+	{
+	  	"SimpleName": "Mediacom Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE Mediacom Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE Mediacom Logo']"
+			}
+	  	}
+	},
+	"megacableProviderBtn":
+	{
+	  	"SimpleName": "Megacable Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE meg Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE meg Logo']"
+			}
+	  	}
+	},
+	"optimumProviderBtn":
+	{
+		"SimpleName": "Optimum Provider Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE Cablevision Logo'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE Cablevision Logo']"
+			}
+		}
+	},
+	"rcnProviderBtn":
+	{
+	  	"SimpleName": "RCN Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE RCN Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE RCN Logo']"
+			}
+		}
+	},
+	"serviceElectricProviderBtn":
+	{
+	  	"SimpleName": "Service Electric Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "XPath:://XCUIElementTypeCollectionView[@name='TopProviderCollectionView']//XCUIElementTypeCell[8]"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE serviceelectric_auth-gateway_net Logo']"
+			}
+	  	}
+	},
+	"singtelProviderBtn":
+	{
+	  	"SimpleName": "Singtel Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "XPath:://XCUIElementTypeCollectionView[@name='TopProviderCollectionView']//XCUIElementTypeCell[0]"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE singtel Logo']"
+			}
+	  	}
+	},
+	"skyProviderBtn":
+	{
+	  	"SimpleName": "Sky Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE sky_br Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE sky_br Logo']"
+			}
+	  	}
+	},
+	"telecentroProviderBtn":
+	{
+	  	"SimpleName": "Telecentro Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE tlc Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE tlc Logo']"
+			}
+	  	}
+	},
+	"timeWarnerCableProviderBtn":
+	{
+	  	"SimpleName": "Time Warner Cable Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE TWC Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE TWC Logo']"
+			}
+	  	}
+	},
+	"verizonProviderBtn":
+	{
+	  	"SimpleName": "Verizon Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE Verizon Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE Verizon Logo']"
+			}
+	  	}
+	},
+	"wowProviderBtn":
+	{
+	  	"SimpleName": "WOW Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE WOW Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE WOW Logo']"
+			}
+		}
+	},
+	"xfinityProviderBtn":
+	{
+	  	"SimpleName": "XFinity Provider Button",
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE xfinity Logo'"
+			}
+	  	},
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE xfinity Logo']"
+			}
+	  	}
+	},
+	"dontSeeProviderBtn":
+	{
+		"SimpleName": "Don't See Provider Button",
+		"iOS":
+		{
+			"TVLand":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"CMT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"MTV_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"MTV_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"CC_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"CC_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"BET_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"VH1":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			},
+			"PARAMOUNT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'YOUR PROVIDER'"
+			}
+		},
+		"Android":
+		{
+			"TVLand":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_dont_see_provider_btn\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"CMT":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_dont_see_provider_btn\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"CC_DOMESTIC":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"CC_INTL":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"BET_DOMESTIC":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"VH1":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"MTV_DOMESTIC":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+			"MTV_INTL":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			},
+            "PARAMOUNT":
+			{
+				"AllDevices": "AndroidUIAutomator::text(\"Don't see your provider?\")",
+				"AllDevicesAndroid7": "AndroidUIAutomator::text(\"DON'T SEE YOUR PROVIDER?\")"
+			}
+		}
+	},
+	"providerNotListedTxt":
+	{
+		"SimpleName": "Provider Not Listed Text",
+		"iOS":
+		{
+			"TVLand":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"CMT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"MTV_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"MTV_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"BET_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"CC_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"CC_INTL":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"VH1":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			},
+			"PARAMOUNT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'IF YOUR PROVIDER'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::textContains(\"IF YOUR PROVIDER IS NOT LISTED\")"
+			}
+		}
+	},
+	"typeProviderNameTxb":
+	{
+		"SimpleName": "Type Provider Name Text Box",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextField'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_search_mvpd\")"
+			}
+		}
+	},
+	"minorProviderBtn":
+	{
+		"SimpleName": "$inText Minor Provider Button",
+		"iOS":
+		{
+			"TVLand":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"CMT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"VH1":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"PARAMOUNT":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"MTV_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"CC_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			},
+			"BET_DOMESTIC":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == '$inText'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/tve_mvpd_display_name\")"
+			}
+		}
+	},
+	"riksProviderBtn":
+	{
+	  	"SimpleName": "RiksTV Provider Button",
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE rikstv Logo']"
+			}
+	  	},
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE rikstv Logo'"
+			}
+	  	}
+	},
+	"getProviderBtn":
+	{
+	  	"SimpleName": "Get Provider Button",
+	  	"Android":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE get Logo']"
+			}
+	  	},
+	  	"iOS":
+	  	{
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE get Logo'"
+			}
+	  	}
+	},
+	"boxerProviderBtn":
+    {
+        "SimpleName": "Boxer Provider Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE boxer Logo']"
+            }
+        },
+        "iOS":
+	    {
+			"AllApps":
+			{
+		  		"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE boxer Logo'"
+			}
+	   }
+    },
+    "stofaProviderBtn":
+    {
+        "SimpleName": "Stofa Provider Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.ImageView[@content-desc='TVE stofa Logo']"
+            }
+        },
+        "iOS":
+	    {
+			"AllApps":
+			{
+			    "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == 'TVE stofa Logo'"
+			}
+	    }
+	},
+	"firstProviderOption": 
+	{
+		"SimpleName": "First Provider Option",
+		"Android": 
+		{
+			"AllApps": 
+			{
+				"AllDevices": "XPath:://*[@resource-id =\"$inPackage:id/tve_full_picker\"]/android.widget.TextView[1]"
+			}
+		}
+	}
+}

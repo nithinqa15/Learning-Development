@@ -1,0 +1,49 @@
+{
+    "backBtn":
+    {
+        "SimpleName": "Back Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"XPath:://XCUIElementTypeButton[@name='Close']"
+            }
+        }
+    },
+    "closeBtn":
+    {
+        "SimpleName": "Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'close' OR wdName == 'Back' OR wdName == 'back'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/show_hide_pane\")"
+            }
+        }
+    },
+    "liveTVCloseBtn":
+    {
+        "SimpleName": "Live TV Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Close'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices":  "Xpath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        }
+    }
+}

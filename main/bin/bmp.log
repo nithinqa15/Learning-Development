@@ -1,0 +1,190 @@
+[INFO  2018-05-07T16:26:25,434 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.6-SNAPSHOT 
+[INFO  2018-05-07T16:26:25,575 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2018-05-07T16:26:25,658 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2018-05-07T16:26:25,922 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:15001 
+[INFO  2018-05-07T16:26:29,651 net.lightbody.bmp.proxy.ProxyManager] (qtp1825445620-16) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-07T16:26:29,949 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-07T16:26:29,981 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-16) Proxy listening with TCP transport 
+[INFO  2018-05-07T16:26:30,079 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-16) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[ERROR 2018-05-07T16:26:32,461 net.lightbody.bmp.filters.JavascriptRequestResponseFilter] (LittleProxy-0-ProxyToServerWorker-0) Could not invoke filterResponse using supplied javascript javax.script.ScriptException: TypeError: null has no such function "getTextContents" in <eval> at line number 1
+	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:426) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.access$300(NashornScriptEngine.java:73) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine$3.eval(NashornScriptEngine.java:514) ~[nashorn.jar:?]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_131]
+	at net.lightbody.bmp.filters.JavascriptRequestResponseFilter.filterResponse(JavascriptRequestResponseFilter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at net.lightbody.bmp.filters.ResponseFilterAdapter.serverToProxyResponse(ResponseFilterAdapter.java:49) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at net.lightbody.bmp.filters.BrowserMobHttpFilterChain.serverToProxyResponse(BrowserMobHttpFilterChain.java:123) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ClientToProxyConnection.respond(ClientToProxyConnection.java:434) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.respondWith(ProxyToServerConnection.java:519) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.readHTTPInitial(ProxyToServerConnection.java:238) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.readHTTPInitial(ProxyToServerConnection.java:77) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.readHTTP(ProxyConnection.java:135) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.read(ProxyConnection.java:120) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.read(ProxyToServerConnection.java:214) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.channelRead0(ProxyConnection.java:587) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection$ResponseReadMonitor.channelRead(ProxyConnection.java:738) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection$BytesReadMonitor.channelRead(ProxyConnection.java:692) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1336) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: jdk.nashorn.internal.runtime.ECMAException: TypeError: null has no such function "getTextContents"
+	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkNull(NashornBottomLinker.java:180) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:66) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.scripts.Script$2$\^eval\_.:program(<eval>:1) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:637) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:421) ~[nashorn.jar:?]
+	... 59 more
+
+[ERROR 2018-05-07T16:26:32,487 net.lightbody.bmp.filters.JavascriptRequestResponseFilter] (LittleProxy-0-ProxyToServerWorker-0) Could not invoke filterResponse using supplied javascript javax.script.ScriptException: TypeError: null has no such function "getTextContents" in <eval> at line number 1
+	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:426) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.access$300(NashornScriptEngine.java:73) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine$3.eval(NashornScriptEngine.java:514) ~[nashorn.jar:?]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_131]
+	at net.lightbody.bmp.filters.JavascriptRequestResponseFilter.filterResponse(JavascriptRequestResponseFilter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at net.lightbody.bmp.filters.ResponseFilterAdapter.serverToProxyResponse(ResponseFilterAdapter.java:49) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at net.lightbody.bmp.filters.BrowserMobHttpFilterChain.serverToProxyResponse(BrowserMobHttpFilterChain.java:123) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ClientToProxyConnection.respond(ClientToProxyConnection.java:434) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.respondWith(ProxyToServerConnection.java:519) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.readHTTPInitial(ProxyToServerConnection.java:238) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.readHTTPInitial(ProxyToServerConnection.java:77) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.readHTTP(ProxyConnection.java:135) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.read(ProxyConnection.java:120) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyToServerConnection.read(ProxyToServerConnection.java:214) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection.channelRead0(ProxyConnection.java:587) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection$ResponseReadMonitor.channelRead(ProxyConnection.java:738) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at org.littleshoot.proxy.impl.ProxyConnection$BytesReadMonitor.channelRead(ProxyConnection.java:692) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1336) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1127) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1162) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: jdk.nashorn.internal.runtime.ECMAException: TypeError: null has no such function "getTextContents"
+	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkNull(NashornBottomLinker.java:180) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:66) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.scripts.Script$3$\^eval\_.:program(<eval>:1) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:637) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:421) ~[nashorn.jar:?]
+	... 59 more
+
+[INFO  2018-05-07T16:27:25,401 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Shutting down proxy server gracefully 
+[INFO  2018-05-07T16:27:25,402 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Closing all channels (graceful) 
+[INFO  2018-05-07T16:27:25,412 org.littleshoot.proxy.impl.ServerGroup] (qtp1825445620-17) Shutting down server group event loops (graceful) 
+[INFO  2018-05-07T16:27:27,628 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Done shutting down proxy server 
+[INFO  2018-05-07T16:29:06,034 net.lightbody.bmp.proxy.ProxyManager] (qtp1825445620-17) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-07T16:29:06,040 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-07T16:29:06,041 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Proxy listening with TCP transport 
+[INFO  2018-05-07T16:29:06,043 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-17) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[INFO  2018-05-07T16:29:58,417 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-18) Shutting down proxy server gracefully 
+[INFO  2018-05-07T16:29:58,418 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-18) Closing all channels (graceful) 
+[INFO  2018-05-07T16:29:58,420 org.littleshoot.proxy.impl.ServerGroup] (qtp1825445620-18) Shutting down server group event loops (graceful) 
+[INFO  2018-05-07T16:30:00,638 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-18) Done shutting down proxy server 
+[INFO  2018-05-07T16:31:50,155 net.lightbody.bmp.proxy.ProxyManager] (qtp1825445620-20) Using Elliptic Curve Cryptography for certificate impersonation 
+[INFO  2018-05-07T16:31:50,162 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8888 
+[INFO  2018-05-07T16:31:50,165 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-20) Proxy listening with TCP transport 
+[INFO  2018-05-07T16:31:50,166 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-20) Proxy started at address: /0:0:0:0:0:0:0:0:8888 
+[INFO  2018-05-07T16:32:21,674 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-2-ClientToProxyWorker-5) (NEGOTIATING_CONNECT) [id: 0x08a33829, L:/169.254.170.14:8888 - R:/192.168.2.2:41412]: An IOException occurred on ClientToProxyConnection: Connection reset by peer 
+[INFO  2018-05-07T16:32:21,679 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-2-ProxyToServerWorker-5) (HANDSHAKING) [id: 0x33f2f529, L:0.0.0.0/0.0.0.0:58807 ! R:viacom.sc.omtrdc.net/172.82.228.19:443]: Connection to upstream server failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.6-SNAPSHOT.jar:?]
+
+[INFO  2018-05-07T16:32:46,633 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-19) Shutting down proxy server gracefully 
+[INFO  2018-05-07T16:32:46,635 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-19) Closing all channels (graceful) 
+[INFO  2018-05-07T16:32:46,645 org.littleshoot.proxy.impl.ServerGroup] (qtp1825445620-19) Shutting down server group event loops (graceful) 
+[INFO  2018-05-07T16:32:48,862 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1825445620-19) Done shutting down proxy server 

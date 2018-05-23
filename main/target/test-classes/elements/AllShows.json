@@ -1,0 +1,114 @@
+{
+	"allShowsBtn":
+	{
+		"SimpleName": "All Shows Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Shows'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/action_shows\")"
+			}
+		}
+	},
+	"allShowsSeriesTitleText":
+	{
+		"SimpleName": "$inText Series Title Text",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == \"$inText\""
+			}
+		},
+		"Android":
+        {
+            "TVLand":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "CC_INTL":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "CMT":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "MTV_INTL":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "BET":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "VH1":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inText\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"$inTextU\")"
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices":  "AndroidUIAutomator::text(\"$inTextU\")"
+            }
+        }
+	},
+	"seriesTile":
+	{
+		"SimpleName": "$inText Series Tile",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == \"$inText\""
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::description(\"$inText\")"
+			}
+		}
+	},
+	"allShowsBackBtn":
+	{
+		"SimpleName": "All Shows Back Button",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'back'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "XPath:://android.widget.ImageButton[@content-desc='Navigate up']"
+			}
+		}
+	}
+}

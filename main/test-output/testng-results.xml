@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Locale Country Name : United States]]>
+    </line>
+    <line>
+      <![CDATA[Rewriting request from testing.api.playplex.viacom.vmn.io to api.playplex.viacom.com]]>
+    </line>
+    <line>
+      <![CDATA[Starting proxy instance on 'localhost' on port '8888' on server '15001'.]]>
+    </line>
+    <line>
+      <![CDATA[testid: swipecarouselandroidtest (android phone)]]>
+    </line>
+    <line>
+      <![CDATA[========NEW TEST SESSION========]]>
+    </line>
+    <line>
+      <![CDATA[Mobile OS: ANDROID]]>
+    </line>
+    <line>
+      <![CDATA[Device Category: PHONE]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Pause for '15000' milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Splash Image' element present: false]]>
+    </line>
+    <line>
+      <![CDATA[Alert present]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Chromecast Text' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Cast To Popup Text' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Thumb Button' element visible: true]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: true]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Black Ink Crew Chicago Series Thumb Button' element visible: true]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+    </line>
+    <line>
+      <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: true]]>
+    </line>
+    <line>
+      <![CDATA[Is the 'Love & Hip Hop Atlanta Series Thumb Button' element visible: true]]>
+    </line>
+    <line>
+      <![CDATA[Stopping proxy instance on port '8888' on proxy server with port '15001'.]]>
+    </line>
+  </reporter-output>
+  <suite name="VIMN Test Suite" duration-ms="199318" started-at="2018-05-18T00:50:27Z" finished-at="2018-05-18T00:53:46Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="SwipeCarouselTest.swipeCarouselAndroidTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="swipeCarouselAndroidTest" class="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+      </group> <!-- Smoke -->
+      <group name="Debug">
+        <method signature="SwipeCarouselTest.swipeCarouselAndroidTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="swipeCarouselAndroidTest" class="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+      </group> <!-- Debug -->
+      <group name="HomeScreen">
+        <method signature="SwipeCarouselTest.swipeCarouselAndroidTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="swipeCarouselAndroidTest" class="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+      </group> <!-- HomeScreen -->
+    </groups>
+    <test name="All Mobile Tests" duration-ms="199318" started-at="2018-05-18T00:50:27Z" finished-at="2018-05-18T00:53:46Z">
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="initTest" is-config="true" duration-ms="2883" started-at="2018-05-17T20:50:27Z" finished-at="2018-05-17T20:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="setupTest" is-config="true" duration-ms="1420" started-at="2018-05-17T20:50:30Z" finished-at="2018-05-17T20:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="swipeCarouselAndroidTest()[pri:0, instance:com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest@465232e9]" name="swipeCarouselAndroidTest" duration-ms="184874" started-at="2018-05-17T20:50:31Z" finished-at="2018-05-17T20:53:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Pause for '15000' milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Splash Image' element present: false]]>
+            </line>
+            <line>
+              <![CDATA[Alert present]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Chromecast Text' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Cast To Popup Text' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Thumb Button' element visible: true]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping right with starting coordinates 1382,1024 and ending coordinates 153,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Title' element visible: true]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Black Ink Crew Chicago Series Thumb Button' element visible: true]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: false]]>
+            </line>
+            <line>
+              <![CDATA[Swiping left with starting coordinates 153,1024 and ending coordinates 1382,1024.]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Love & Hip Hop Atlanta Series Title' element visible: true]]>
+            </line>
+            <line>
+              <![CDATA[Is the 'Love & Hip Hop Atlanta Series Thumb Button' element visible: true]]>
+            </line>
+            <line>
+              <![CDATA[Stopping proxy instance on port '8888' on proxy server with port '15001'.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- swipeCarouselAndroidTest -->
+      </class> <!-- com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest -->
+    </test> <!-- All Mobile Tests -->
+  </suite> <!-- VIMN Test Suite -->
+</testng-results>

@@ -1,0 +1,147 @@
+{
+    "watchEpisodeBtn":
+    {
+        "SimpleName": "$inText Watch Episode Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'watch episode'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"WATCH EPISODE\")"
+            }
+        }
+    },
+    "clipPlayBtn":
+    {
+        "SimpleName": "$inText Clip Play Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Play'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/poster_play_image\")"
+            }
+        }
+    },
+    "clipTitle":
+    {
+        "SimpleName": "$inText Clip Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "clipCloseBtn":
+    {
+        "SimpleName": "Clips Close Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'close'"
+            }
+        }
+
+    },
+    "backBtn":
+    {
+        "SimpleName": "Clips Back Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'back'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.ImageButton[@content-desc='Navigate up']"
+            }
+        }
+    },
+    "clipDuration":
+    {
+        "SimpleName": "Clip Duration",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"$inText\")"
+            }
+        }
+    },
+    "clipSubtitle":
+    {
+        "SimpleName": "Clip Subtitle",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"$inText\")"
+            }
+        }
+    },
+    "noExtrasTxt":
+    {
+        "SimpleName": "No Extras Available Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"No Xtras are currently available for this series.\")"
+            }
+        }
+    },
+    "clipMetadataCtr":
+    {
+        "SimpleName": "Clip Metadata Container",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/clip_meta_data\")"
+            }
+        }
+    }
+}
+
+
+

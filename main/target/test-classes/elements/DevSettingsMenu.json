@@ -1,0 +1,73 @@
+{
+    "clearBalaBtn":
+    {
+        "SimpleName": "Clear Bala Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Clear Bala Notifier\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"CLEAR BALA NOTIFIER\")"
+            }
+        }
+    },
+    "clearBalaPopUp":
+    {
+        "SimpleName": "Clear Bala Pop Up Screen",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/alertTitle\")"
+            }
+        }
+    },
+    "yesBtn":
+    {
+        "SimpleName": "Yes Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"android:id/button1\")"
+            }
+        }
+    },
+    "wifiBtn":
+    {
+        "SimpleName": "WiFi Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeSwitch' AND wdName == 'Wi-Fi'"
+            }
+        }
+    },
+    "airplaneModeBtn":
+    {
+        "SimpleName": "Airplane Mode Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeSwitch' AND wdName == 'Airplane Mode'"
+            }
+        }
+    }
+
+}

@@ -1,0 +1,366 @@
+{
+    "acceptAndContinueBtn":
+    {
+        "SimpleName": "Accept And Continue Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/accept_button\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == \"ACCEPT & CONTINUE\""
+            }
+        }
+    },
+    "reviewUpdatesBtn":
+    {
+        "SimpleName": "Review Updates Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/read_button\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == \"REVIEW UPDATES Such as arbitration for disputes\""
+            }
+        }
+    },
+    "updatedTermsTxt":
+    {
+        "SimpleName": "Updated Terms Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"We've updated our terms of use and privacy policy\")"
+            }
+        },
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy.\""
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"We’ve updated our terms of use and privacy policy\""
+            }
+        }
+    },
+    "privacyPolicyBtn":
+    {
+        "SimpleName": "Privacy Policy Button",
+        "Android":
+        {
+              "AllApps":
+            {
+              "AllDevices": "AndroidUIAutomator::description(\"Privacy Policy\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Privacy Policy\""
+            }
+        }
+    },
+    "privacyPolicyTxt":
+    {
+        "SimpleName": "Privacy Policy Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/statement\")"
+            }
+        },
+        "iOS":
+        {
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS \"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\""
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS \"PRIVACY POLICY AND YOUR CALIFORNIA PRIVACY RIGHTS\""
+            },
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"PRIVACY POLICY\""
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"PRIVACY POLICY\""
+            }
+        }
+    },
+    "termsOfUseBtn":
+    {
+        "SimpleName": "Terms Of Use Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Terms of Use\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Terms of Use\""
+            }
+        }
+    },
+    "termsOfUseTxt":
+    {
+        "SimpleName": "Terms Of Use Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"TERMS OF USE AGREEMENT\")"
+            }
+        },
+        "iOS":
+        {
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS \"Terms of Use\""
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS \"Terms of Use\""
+            },
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"TERMS OF USE\""
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"TERMS OF USE\""
+            }
+        }
+    },
+    "changesBtn":
+    {
+        "SimpleName": "Changes Button",
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": "AndroidUIAutomator::description(\"Changes\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Changes\""
+            }
+        }
+    },
+    "changesTxt":
+    {
+        "SimpleName": "Changes Text",
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": "AndroidUIAutomator::textContains(\"Summaries of Most Significant Updates\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS \"Changes\""
+            }
+        }
+    },
+    "faqsBtn":
+    {
+        "SimpleName": "Arbitration FAQs Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Arbitration FAQS\")"
+            }
+        },
+        "iOS":
+        {
+             "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQS\""
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQS\""
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            }
+        }
+    },
+    "faqsTxt":
+    {
+        "SimpleName": "Arbitration FAQs Text",
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": "AndroidUIAutomator::textContains(\"Arbitration and Class Action Waiver Provisions: Frequently Asked Questions\")"
+            }
+        },
+        "iOS":
+        {
+            "TVLand":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS \"Arbitration FAQS\""
+            },
+            "VH1":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS \"Arbitration FAQS\""
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS \"Arbitration FAQs\""
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "MTV_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "CC_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            },
+            "BET_DOMESTIC":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"Arbitration FAQs\""
+            }
+        }
+    },
+    "backBtn":
+    {
+        "SimpleName": "Back Button",
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": "AndroidUIAutomator::description(\"Navigate up\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == \"Back\""
+            }
+        }
+    },
+    "mustAcceptConditionsTxt":
+    {
+        "SimpleName": "Must Accept Conditions Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"You must accept the conditions for continuing using the app\")"
+            }
+        }
+    },
+    "retryBtn":
+    {
+        "SimpleName": "Retry Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"RETRY\")"
+            }
+        }
+    },
+    "adChoicesTxt":
+    {
+        "SimpleName": "AD Choices Text",
+        "Android":
+        {
+            "AllApps":
+            {
+               "AllDevices": " "
+            }
+        },
+        "iOS":
+        {
+            "TVLand":
+            {
+               "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"AD CHOICES\""
+            },
+            "VH1":
+            {
+                "AllDevices": " "
+            },
+            "CMT":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeLink' AND wdName CONTAINS \"AD CHOICES\""
+            },
+            "PARAMOUNT":
+            {
+                "AllDevices": " "
+            }
+        }
+    }
+}

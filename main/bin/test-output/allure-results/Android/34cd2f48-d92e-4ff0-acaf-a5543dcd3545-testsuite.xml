@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1525725074872" stop="1525725180954" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>VIMN Test Suite : All Mobile Tests</name>
+    <title>VIMN Test Suite : All Mobile Tests</title>
+    <test-cases>
+        <test-case start="1525725108828" stop="1525725159780" status="passed">
+            <name>previewAndroidTest</name>
+            <steps>
+                <step start="1525725108901" stop="1525725108905" status="passed">
+                    <name>logMessage[Locale Country Name : Germany]</name>
+                    <title>Locale Country Name : Germany</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725108912" stop="1525725108912" status="passed">
+                    <name>logMessage[Rewriting request from testing.api.playplex.viacom.vmn.io to api.playplex.viacom.com]</name>
+                    <title>Rewriting request from testing.api.playplex.viacom.vmn.io to api.playplex.viacom.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725109499" stop="1525725109499" status="passed">
+                    <name>logMessage[Starting proxy instance on 'localhost' on port '8888' on server '15001'.]</name>
+                    <title>Starting proxy instance on 'localhost' on port '8888' on server '15001'.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137033" stop="1525725137034" status="passed">
+                    <name>logMessage[testid: previewandroidtest (android phone)]</name>
+                    <title>testid: previewandroidtest (android phone)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137037" stop="1525725137037" status="passed">
+                    <name>logMessage[========NEW TEST SESSION========]</name>
+                    <title>========NEW TEST SESSION========</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137038" stop="1525725137039" status="passed">
+                    <name>logMessage[Mobile OS: ANDROID]</name>
+                    <title>Mobile OS: ANDROID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137040" stop="1525725137044" status="passed">
+                    <name>logMessage[Device Category: PHONE]</name>
+                    <title>Device Category: PHONE</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137644" stop="1525725137644" status="passed">
+                    <name>logMessage[Pause for '15000' milliseconds.]</name>
+                    <title>Pause for '15000' milliseconds.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725158914" stop="1525725158914" status="passed">
+                    <name>logMessage[Is the 'Splash Image' element present: false]</name>
+                    <title>Is the 'Splash Image' element present: false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725158924" stop="1525725158924" status="passed">
+                    <name>logMessage[Alert not present]</name>
+                    <title>Alert not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159105" stop="1525725159105" status="passed">
+                    <name>logMessage[Is the 'Splash Image' element present: false]</name>
+                    <title>Is the 'Splash Image' element present: false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159113" stop="1525725159113" status="passed">
+                    <name>logMessage[Alert not present]</name>
+                    <title>Alert not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159381" stop="1525725159382" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Thumb Button' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Thumb Button' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159543" stop="1525725159544" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Title' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Title' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159682" stop="1525725159682" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Thumb Button' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Thumb Button' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159712" stop="1525725159712" status="passed">
+                    <name>logMessage[Verify the 'Gwen Harrison, is an opinionated attorney whose passion for her job and clients make her arguably...]</name>
+                    <title>Verify the 'Gwen Harrison, is an opinionated attorney whose passion for her job and clients make her arguably the most t...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="VIMN Test Suite"/>
+                <label name="testGroup" value="All Mobile Tests"/>
+                <label name="testClass" value="com.viacom.test.vimn.uitests.tests.homescreen.PreviewTest"/>
+                <label name="testMethod" value="previewAndroidTest"/>
+                <label name="testId" value="11930"/>
+                <label name="feature" value="HomeScreen"/>
+                <label name="host" value="C02PK9CVFVH5"/>
+                <label name="thread" value="4615@C02PK9CVFVH5.pool-1-thread-1(19)"/>
+            </labels>
+        </test-case>
+        <test-case start="1525725108828" stop="1525725159780" status="passed">
+            <name>previewAndroidTest</name>
+            <steps>
+                <step start="1525725108901" stop="1525725108905" status="passed">
+                    <name>logMessage[Locale Country Name : Germany]</name>
+                    <title>Locale Country Name : Germany</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725108912" stop="1525725108912" status="passed">
+                    <name>logMessage[Rewriting request from testing.api.playplex.viacom.vmn.io to api.playplex.viacom.com]</name>
+                    <title>Rewriting request from testing.api.playplex.viacom.vmn.io to api.playplex.viacom.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725109499" stop="1525725109499" status="passed">
+                    <name>logMessage[Starting proxy instance on 'localhost' on port '8888' on server '15001'.]</name>
+                    <title>Starting proxy instance on 'localhost' on port '8888' on server '15001'.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137033" stop="1525725137034" status="passed">
+                    <name>logMessage[testid: previewandroidtest (android phone)]</name>
+                    <title>testid: previewandroidtest (android phone)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137037" stop="1525725137037" status="passed">
+                    <name>logMessage[========NEW TEST SESSION========]</name>
+                    <title>========NEW TEST SESSION========</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137038" stop="1525725137039" status="passed">
+                    <name>logMessage[Mobile OS: ANDROID]</name>
+                    <title>Mobile OS: ANDROID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137040" stop="1525725137044" status="passed">
+                    <name>logMessage[Device Category: PHONE]</name>
+                    <title>Device Category: PHONE</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725137644" stop="1525725137644" status="passed">
+                    <name>logMessage[Pause for '15000' milliseconds.]</name>
+                    <title>Pause for '15000' milliseconds.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725158914" stop="1525725158914" status="passed">
+                    <name>logMessage[Is the 'Splash Image' element present: false]</name>
+                    <title>Is the 'Splash Image' element present: false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725158924" stop="1525725158924" status="passed">
+                    <name>logMessage[Alert not present]</name>
+                    <title>Alert not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159105" stop="1525725159105" status="passed">
+                    <name>logMessage[Is the 'Splash Image' element present: false]</name>
+                    <title>Is the 'Splash Image' element present: false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159113" stop="1525725159113" status="passed">
+                    <name>logMessage[Alert not present]</name>
+                    <title>Alert not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159381" stop="1525725159382" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Thumb Button' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Thumb Button' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159543" stop="1525725159544" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Title' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Title' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159682" stop="1525725159682" status="passed">
+                    <name>logMessage[Is the 'In Contempt Series Thumb Button' element visible: true]</name>
+                    <title>Is the 'In Contempt Series Thumb Button' element visible: true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1525725159712" stop="1525725159712" status="passed">
+                    <name>logMessage[Verify the 'Gwen Harrison, is an opinionated attorney whose passion for her job and clients make her arguably...]</name>
+                    <title>Verify the 'Gwen Harrison, is an opinionated attorney whose passion for her job and clients make her arguably the most t...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="VIMN Test Suite"/>
+                <label name="testGroup" value="All Mobile Tests"/>
+                <label name="testClass" value="com.viacom.test.vimn.uitests.tests.homescreen.PreviewTest"/>
+                <label name="testMethod" value="previewAndroidTest"/>
+                <label name="testId" value="11930"/>
+                <label name="feature" value="HomeScreen"/>
+                <label name="host" value="C02PK9CVFVH5"/>
+                <label name="thread" value="4615@C02PK9CVFVH5.pool-1-thread-1(19)"/>
+            </labels>
+        </test-case>
+        <test-case start="1525725074872" stop="1525725180939" status="broken">
+            <name>VIMN Test Suite : All Mobile Tests</name>
+            <title>VIMN Test Suite : All Mobile Tests</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

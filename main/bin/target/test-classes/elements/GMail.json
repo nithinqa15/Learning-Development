@@ -1,0 +1,61 @@
+{
+    "toTxb":
+    {
+        "SimpleName": "To Text Box",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"com.google.android.gm:id/to\")"
+            }
+        }
+    },
+    "subjectTxb":
+    {
+        "SimpleName": "Subject Text Box",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUiAutomator::textContains(\"$inText\")"
+            }
+        }
+    },
+    "bodyTxb":
+    {
+        "SimpleName": "Body Text Box",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.view.View"
+            }
+        }
+    },
+    "gMailIcon":
+    {
+        "SimpleName": "Gmail Icon",
+        "Android":
+        {
+            "TVland":
+            {
+                "AllDevices": "AndroidUiAutomator::resourceID(\"android:id/icon\")"
+            },
+            "CMT":
+            {
+                "AllDevices": "AndroidUiAutomator::resourceID(\"android:id/icon\")"
+            }
+        }
+    },
+    "gMailTxt":
+    {
+        "SimpleName": "Gmail Icon Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Gmail\")"
+            }
+        }
+    }
+}

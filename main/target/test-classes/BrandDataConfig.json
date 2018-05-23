@@ -1,0 +1,348 @@
+{
+    "BET_DOMESTIC":
+    {
+        "AppName": "BET_DOMESTIC",
+        "vidOwner": "betplay",
+        "channel": "betplay",
+        "playerMgid":
+        {
+            "en_us": "mgid:arc:video:bet.com"
+        },
+        "playerMgidReport": "mgid:arc:video:bet.com",
+        "OmnitureAppName": "BET Play",
+        "OmnitureBrandId": "BET",
+        "OmnitureAppId":
+        {
+            "Dev": "bet_app_dev",
+            "Release": "bet_app_dev"
+        },
+        "AppSupportName":
+        {
+            "en_us": "BET United States App Support"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en-us": "Betapp_support@viacom.com"
+        },
+        "Domain": "bet.com",
+        "LiveTV": "true"
+    },
+    "BET_INTL":
+    {
+        "AppName": "BET_INTL",
+        "vidOwner": "betplay",
+        "channel": "betplay",
+        "playerMgid": "mgid:arc:video:betplay.com",
+        "playerMgidReport": "mgid:arc:video:betplay.com",
+        "OmnitureAppName": "BET Play",
+        "OmnitureBrandId": "BET",
+        "OmnitureAppId":
+        {
+            "Dev": "bet_intl_app_dev",
+            "Release": "bet_intl_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "de_de": "help@bet.com",
+            "es_mx": "help@bet.com",
+            "es_es": "help@bet.com"
+        },
+        "Domain": "betplay.com",
+        "ImageDomain":
+        {
+            "de_de": "bet.intl",
+            "es_mx": "bet.intl",
+            "es_es": "bet.intl"
+        },
+
+        "LiveTV": "true"
+    },
+    "CC_DOMESTIC":
+    {
+        "AppName": "CC_DOMESTIC",
+        "vidOwner": "comedycentralplay",
+        "channel": "comedycentralplay",
+        "playerMgid": "mgid:arc:video:comedycentral.com",
+        "playerMgidReport": "mgid:arc:video:comedycentral.com",
+        "OmnitureAppName": "Comedy Central",
+        "OmnitureBrandId": "Comedy_Central",
+        "OmnitureAppId":
+        {
+            "Dev": "cc_app_dev",
+            "Release": "cc_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "help@cc.com"
+        },
+        "Domain": "comedycentral.com",
+        "ImageDomain":
+        {
+            "en_us": "comedycentral.com"
+        },
+        "LiveTV": "true"
+    },
+    "CC_INTL":
+    {
+        "AppName": "CC_INTL",
+        "vidOwner": "comedycentralplay",
+        "channel": "comedycentralplay",
+        "playerMgid": "mgid:arc:video:comedycentralplay.com",
+        "playerMgidReport": "mgid:arc:video:comedycentralplay.com",
+        "OmnitureAppName": "Comedy Central",
+        "OmnitureBrandId": "Comedy_Central",
+        "OmnitureAppId":
+        {
+            "Dev": "cc_latam_app_dev",
+            "Release": "cc_latam_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_sg": "CCapphelp@viacom.com",
+            "es_mx": "CCPlayLatam@vimn.com",
+            "es_ar": "CCPlayLatam@vimn.com",
+            "es_cl": "CCPlayLatam@vimn.com",
+            "es_co": "CCPlayLatam@vimn.com",
+            "es_pe": "CCPlayLatam@vimn.com",
+            "es_pa": "CCPlayLatam@vimn.com",
+            "es_ve": "CCPlayLatam@vimn.com",
+            "es_cr": "CCPlayLatam@vimn.com",
+            "es_sv": "CCPlayLatam@vimn.com",
+            "es_gt": "CCPlayLatam@vimn.com",
+            "es_hn": "CCPlayLatam@vimn.com",
+            "es_ni": "CCPlayLatam@vimn.com",
+            "es_bo": "CCPlayLatam@vimn.com",
+            "es_ec": "CCPlayLatam@vimn.com",
+            "es_do": "CCPlayLatam@vimn.com",
+            "es_uy": "CCPlayLatam@vimn.com",
+            "pt_br": "CCPlayBrasil@vimn.com",
+            "uk_uk": "feedback@comedycentral.co.uk"
+        },
+        "Domain": "comedycentralplay.com",
+        "ImageDomain":
+        {
+            "en_sg": "comedycentralasia.com",
+            "es_mx": "comedycentral.la",
+            "es_ar": "comedycentral.la",
+            "es_cl": "comedycentral.la",
+            "es_co": "comedycentral.la",
+            "es_pe": "comedycentral.la",
+            "es_pa": "comedycentral.la",
+            "es_ve": "comedycentral.la",
+            "es_cr": "comedycentral.la",
+            "es_sv": "comedycentral.la",
+            "es_gt": "comedycentral.la",
+            "es_hn": "comedycentral.la",
+            "es_ni": "comedycentral.la",
+            "es_bo": "comedycentral.la",
+            "es_ec": "comedycentral.la",
+            "es_do": "comedycentral.la",
+            "es_uy": "comedycentral.la",
+            "pt_br": "comedycentral.com.br",
+            "uk_uk": "comedycentral.co.uk"
+        },
+        "LiveTV": "true"
+    },
+    "CMT":
+    {
+        "AppName": "CMT",
+        "vidOwner": "cmtplay",
+        "channel": "cmtplay",
+        "playerMgid": "mgid:arc:video:cmtplay.com",
+        "playerMgidReport": "mgid:arc:video:cmtplay.com",
+        "OmnitureAppName": "CMT Play",
+        "OmnitureBrandId": "CMT",
+        "OmnitureAppId":
+        {
+            "Dev": "cmt_play_app_dev",
+            "Release": "cmt_play_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "cmtappsupport@cmt.com"
+        },
+        "Domain": "cmtplay.com",
+        "ImageDomain":
+        {
+            "en_us": "cmt.com"
+        },
+        "LiveTV": "true"
+    },
+    "MTV_DOMESTIC":
+    {
+        "AppName": "MTV_DOMESTIC",
+        "vidOwner": "mtvplay",
+        "channel": "mtvplay",
+        "playerMgid": "mgid:arc:video:mtv.com",
+        "playerMgidReport": "mgid:arc:video:mtv.com",
+        "OmnitureAppName": "MTV Play",
+        "OmnitureBrandId": "MTV",
+        "OmnitureAppId":
+        {
+            "Dev": "mtv_app_dev",
+            "Release": "mtv_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "feedback@mtv.com"
+        },
+        "Domain": "mtv.com",
+        "ImageDomain":
+        {
+            "en_us": "mtv.com"
+        },
+        "LiveTV": "true"
+    },
+    "MTV_INTL":
+    {
+        "AppName": "MTV_INTL",
+        "vidOwner": "mtvplay",
+        "channel": "mtvplay",
+        "playerMgid": "mgid:arc:video:mtvplay.com",
+        "playerMgidReport": "mgid:arc:video:mtvplay.com",
+        "OmnitureAppName": "MTV Play",
+        "OmnitureBrandId": "MTV",
+        "OmnitureAppId":
+        {
+            "Dev": "mtv_latam_app_dev",
+            "Release": "mtv_latam_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "da_dk": "feedback@mtv.com",
+            "de_at": "feedback@mtv.com",
+            "de_de": "feedback@mtv.com",
+            "nl_be": "feedback@mtv.com",
+            "nl_nl": "feedback@mtv.com",
+            "no_no": "feedback@mtv.com",
+            "en_sg": "feedback@mtv.com",
+            "es_mx": "feedback@mtv.com",
+            "es_ar": "feedback@mtv.com",
+            "es_cl": "feedback@mtv.com",
+            "es_co": "feedback@mtv.com",
+            "es_pe": "feedback@mtv.com",
+            "es_pa": "feedback@mtv.com",
+            "es_ve": "feedback@mtv.com",
+            "es_cr": "feedback@mtv.com",
+            "es_sv": "feedback@mtv.com",
+            "es_gt": "feedback@mtv.com",
+            "es_hn": "feedback@mtv.com",
+            "es_ni": "feedback@mtv.com",
+            "es_bo": "feedback@mtv.com",
+            "es_ec": "feedback@mtv.com",
+            "es_do": "feedback@mtv.com",
+            "es_uy": "feedback@mtv.com",
+            "es_es": "feedback@mtv.com",
+            "pl_pl": "feedback@mtv.com",
+            "pt_br": "feedback@mtv.com",
+            "uk_uk": "complaints@mtv.co.uk"
+        },
+        "Domain": "mtvplay.com",
+        "ImageDomain":
+        {
+            "de_at": "mtv.at",
+            "de_de": "mtv.de",
+            "da_dk": "mtv.dk",
+            "nl_be": "mtv.be",
+            "nl_nl": "mtv.nl",
+            "no_no": "mtv.no",
+            "en_sg": "mtvasia.com",
+            "es_mx": "mtvla.com",
+            "es_ar": "mtvla.com",
+            "es_cl": "mtvla.com",
+            "es_co": "mtvla.com",
+            "es_pe": "mtvla.com",
+            "es_pa": "mtvla.com",
+            "es_ve": "mtvla.com",
+            "es_cr": "mtvla.com",
+            "es_sv": "mtvla.com",
+            "es_gt": "mtvla.com",
+            "es_hn": "mtvla.com",
+            "es_ni": "mtvla.com",
+            "es_bo": "mtvla.com",
+            "es_ec": "mtvla.com",
+            "es_do": "mtvla.com",
+            "es_uy": "mtvla.com",
+            "es_es": "mtvplay.com",
+            "pl_pl": "mtv.pl",
+            "pt_br": "mtv.com.br",
+            "uk_uk": "mtv.co.uk"
+        },
+        "LiveTV": "true"
+    },
+    "PARAMOUNT":
+    {
+        "AppName": "Paramount",
+        "vidOwner": "ParamountPlay",
+        "channel": "ParamountPlay",
+        "playerMgid": "mgid:arc:video:paramountnetwork.com",
+        "playerMgidReport": "mgid:arc:video:paramountnetwork.com",
+        "OmnitureAppName": "ParamountPlay",
+        "OmnitureBrandId": "Paramount",
+        "OmnitureAppId":
+        {
+            "Dev": "paramountnetwork_app_dev",
+            "Release": "paramountnetwork_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "help@paramountnetwork.com"
+        },
+        "Domain": "paramountnetwork.com",
+        "ImageDomain":
+        {
+            "en_us": "paramountnetwork.com"
+        },
+        "LiveTV": "true"
+    },
+    "TVLand":
+    {
+        "AppName": "TVLand",
+        "vidOwner": "tvlandplay",
+        "channel": "tvlandplay",
+        "playerMgid": "mgid:arc:video:tvlandplay.com",
+        "playerMgidReport": "mgid:arc:video:tvlandplay.com",
+        "OmnitureAppName": "TV Land",
+        "OmnitureBrandId": "TVLand",
+        "OmnitureAppId":
+        {
+            "Dev": "tvland_app_dev",
+            "Release": "tvland_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "tvlandapp_support@viacom.com"
+        },
+        "Domain": "tvlandplay.com",
+        "ImageDomain":
+        {
+            "en_us": "tvland.com"
+        },
+        "LiveTV": "false"
+    },
+    "VH1":
+    {
+        "AppName": "VH1",
+        "vidOwner": "vh1play",
+        "channel": "vh1play",
+        "playerMgid": "mgid:arc:video:vh1play.com",
+        "playerMgidReport": "mgid:arc:video:vh1play.com",
+        "OmnitureAppName": "VH1",
+        "OmnitureBrandId": "VH1",
+        "OmnitureAppId":
+        {
+            "Dev": "vh1_app_dev",
+            "Release": "vh1_app"
+        },
+        "AppContactSupportToEmail":
+        {
+            "en_us": "vh1appsupport@vh1.com"
+        },
+        "Domain": "vh1play.com",
+        "ImageDomain":
+        {
+            "en_us": "vh1play.com"
+        },
+        "LiveTV": "true"
+    }
+}

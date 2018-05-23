@@ -1,0 +1,81 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "time" : {
+      "start" : 1526604631597,
+      "stop" : 1526604816442,
+      "duration" : 184845
+    },
+    "name" : "total tests",
+    "type" : "TOTAL"
+  }, {
+    "name" : "tests by suite",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "VIMNNative",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "features",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "HomeScreen",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "defect screenshots",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 0,
+      "message" : "There are no defects!",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ {
+      "key" : "APIVersion",
+      "value" : "1.9"
+    }, {
+      "key" : "AppName",
+      "value" : "VH1"
+    }, {
+      "key" : "AppPackage",
+      "value" : ""
+    }, {
+      "key" : "AppVersion",
+      "value" : "10.54.0"
+    }, {
+      "key" : "BuildNumber",
+      "value" : "Latest"
+    }, {
+      "key" : "ContentDomain",
+      "value" : "Live"
+    }, {
+      "key" : "MobileOS",
+      "value" : "Android"
+    } ]
+  } ]
+}

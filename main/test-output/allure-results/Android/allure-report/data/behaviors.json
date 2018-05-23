@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "HomeScreen",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "75af37fd22d3c16e",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f34811a2f1e89671",
+        "name" : "swipeCarouselAndroidTest",
+        "title" : "Swipe carousel android test",
+        "time" : {
+          "start" : 1526604631597,
+          "stop" : 1526604816442,
+          "duration" : 184845
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eb5d2170fe1e16e6",
+        "name" : "swipeCarouselAndroidTest",
+        "title" : "Swipe carousel android test",
+        "time" : {
+          "start" : 1526604631597,
+          "stop" : 1526604816442,
+          "duration" : 184845
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

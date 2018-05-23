@@ -1,0 +1,561 @@
+{
+    "splashImg":
+    {
+        "SimpleName": "Splash Image",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName CONTAINS 'Loading'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/splash_video\")"
+            }
+        }
+    },
+    "seriesThumbBtn":
+    {
+        "SimpleName": "$inText Series Thumb Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeCell' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.LinearLayout[@content-desc=\"$inText\"]"
+            }
+        }
+    },
+    "seriesTtl":
+    {
+        "SimpleName": "$inText Series Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "seriesDescriptionTxt":
+    {
+        "SimpleName": "$inText Series Description Text",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"$inText\")"
+            }
+        }
+    },
+    "newEpisodeBtn":
+    {
+        "SimpleName": "New Episode Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'NEW EPISODE'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"new episode\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"NEW EPISODE\")"
+            }
+        }
+    },
+    "newSeriesBtn":
+    {
+        "SimpleName": "New Series Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'NEW SERIES'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"new series\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"NEW SERIES\")"
+            }
+        }
+    },
+    "newSeasonBtn":
+    {
+        "SimpleName": "New Season Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'NEW SEASON'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"new season\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"NEW SEASON\")"
+            }
+        }
+    },
+    "onNowBtn":
+    {
+        "SimpleName": "On Now Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'ON NOW'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"on now\")"
+            }
+        }
+    },
+    "liveTVBtn":
+    {
+        "SimpleName": "Live TV Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Live TV'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/live_tv_label\")"
+            }
+        }
+    },
+    "progressBar":
+    {
+        "SimpleName": "$inText Progress Bar",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://XCUIElementTypeCell[@name='$inText']//XCUIElementTypeProgressIndicator[@name='Progress']"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "XPath:://android.widget.LinearLayout[@content-desc='$inText']/../../..//android.widget.ProgressBar[@resource-id='$inPackage:id/progress']"
+            }
+        }
+    },
+    "fullEpisodesBtn":
+    {
+        "SimpleName": "Full Episodes Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'FULL EPISODES'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/home_episodes\")"
+            }
+        }
+    },
+    "resumeWatchingLbl":
+    {
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"resume watching\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"RESUME WATCHING\")"
+            }
+        }
+    },
+    "watchExtrasBtn":
+    {
+        "SimpleName": "Watch Extras Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'CLIPS & EXTRAS'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/home_extras\")"
+            }
+        }
+    },
+    "posterImage":
+    {
+        "SimpleName": "Poster Image",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'card_shadow'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/home_gradient\")"
+            }
+        }
+    },
+    "backgroundVideoPlayer":
+    {
+        "SimpleName": "Home Background Video Player",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/video_player\")"
+            }
+        }
+    },
+    "chromecastBtn":
+    {
+        "SimpleName": "Chromecast Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Cast button. Disconnected\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Chromecast'"
+            }
+        }
+    },
+    "chromecastTxt":
+    {
+        "SimpleName": "Chromecast Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/cast_featurehighlight_help_text_header_view\")"
+            }
+        },
+		"iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'Touch to cast media to your TV and Speakers'"
+            }
+        }
+    },
+    "castToTxt":
+    {
+        "SimpleName": "Cast To Popup Text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Cast to\")"
+            }
+        }
+    },
+    "castToDeviceBtn":
+    {
+        "SimpleName": "Cast Device Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/mr_chooser_route_name\")"
+            }
+        }
+    },
+    "chromecastOKbtn":
+    {
+        "SimpleName": "chromecast OK Btn",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        },
+		"iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'OK'"
+            }
+        }
+    },
+    "muteBtn":
+    {
+        "SimpleName": "Mute Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::description(\"Sound\")"
+            }
+        }
+    },
+    "ohNoTxt":
+    {
+        "SimpleName": "Oh No text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fatal_error_message\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == \"OH NO!\""
+            }
+        }
+    },
+    "youLostConnectionTxt":
+    {
+        "SimpleName": "You Lost Connection text",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/fatal_error_description\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == \"YOU LOST CONNECTION! PLEASE TRY AGAIN IN A FEW MINUTES.\""
+            }
+        }
+    },
+    "retryBtn":
+    {
+        "SimpleName": "Retry Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/exception_action_button\")"
+            }
+        },
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'RETRY'"
+            }
+        }
+    },
+    "movieBtn":
+    {
+        "SimpleName": "Movie Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'MOVIE'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Movie\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"MOVIE\")"
+            }
+        }
+    },
+    "specialBtn":
+    {
+        "SimpleName": "Special Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'SPECIAL'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/home_episodes\")"
+            }
+        }
+    },
+    "trailerBtn":
+    {
+        "SimpleName": "Trailer Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName CONTAINS 'TRAILER'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Trailer\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"TRAILER\")"
+            }
+        }
+    },
+    "clipsBtn":
+    {
+        "SimpleName": "Clips Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'CLIPS'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Clips\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"CLIPS\")"
+            }
+        }
+    },
+    "newMovieBtn":
+    {
+        "SimpleName": "New Movie Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'NEW MOVIE'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"new movie\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"NEW MOVIE\")"
+            }
+        }
+    },
+ 	"brandLogoImage":
+    {
+        "SimpleName": "Brand logo Image",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevicesiOS10": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Brand Logo'",
+                "AllDevicesiOS11": "IosNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'brandLogo'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "Xpath:://android.widget.ImageView[1]"
+            }
+        }
+    },
+    "newSpecialBtn":
+    {
+        "SimpleName": "New Special Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName == 'NEW SPECIAL'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"new event\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"NEW EVENT\")"
+            }
+        }
+    },
+    "searchIcon":
+    {
+        "SimpleName": "Search icon on home",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IoSNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Search'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "",
+                "AllDevicesAndroid7": ""
+            }
+        }
+    }
+}

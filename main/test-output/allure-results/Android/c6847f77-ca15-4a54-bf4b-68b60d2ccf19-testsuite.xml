@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1526604627248" stop="1526604826569" version="1.5.4">
+    <name>VIMNNative</name>
+    <title>VIMNNative</title>
+    <test-cases>
+        <test-case start="1526604631597" status="passed" stop="1526604816442">
+            <name>swipeCarouselAndroidTest</name>
+            
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="VIMN Test Suite"/>
+                <label name="testGroup" value="All Mobile Tests"/>
+                <label name="testClass" value="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+                <label name="testMethod" value="swipeCarouselAndroidTest"/>
+                <label name="testId" value="66330"/>
+                <label name="feature" value="HomeScreen"/>
+                <label name="host" value="Nithins-MacBook-Pro.local"/>
+                <label name="thread" value="7218@Nithins-MacBook-Pro.local.pool-1-thread-1(16)"/>
+            </labels>
+        </test-case>
+        <test-case start="1526604631597" status="passed" stop="1526604816442">
+            <name>swipeCarouselAndroidTest</name>
+            
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="VIMN Test Suite"/>
+                <label name="testGroup" value="All Mobile Tests"/>
+                <label name="testClass" value="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+                <label name="testMethod" value="swipeCarouselAndroidTest"/>
+                <label name="testId" value="66330"/>
+                <label name="feature" value="HomeScreen"/>
+                <label name="host" value="Nithins-MacBook-Pro.local"/>
+                <label name="thread" value="7218@Nithins-MacBook-Pro.local.pool-1-thread-1(16)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

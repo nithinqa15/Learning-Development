@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "allure-commandline@1.4.23",
+      ""
+    ]
+  ],
+  "_from": "allure-commandline@1.4.23",
+  "_id": "allure-commandline@1.4.23",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/allure-commandline",
+  "_nodeVersion": "5.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/allure-commandline-1.4.23.tgz_1461233891387_0.9303503928240389"
+  },
+  "_npmUser": {
+    "email": "just-boris@hotmail.com",
+    "name": "just-boris"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "allure-commandline",
+    "raw": "allure-commandline@1.4.23",
+    "rawSpec": "1.4.23",
+    "scope": null,
+    "spec": "1.4.23",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/allure-commandline/-/allure-commandline-1.4.23.tgz",
+  "_shasum": "62e3d50efcf79e0209830d10233b961993e3d05a",
+  "_shrinkwrap": null,
+  "_spec": "allure-commandline@1.4.23",
+  "_where": "",
+  "bin": {
+    "allure": "bin/allure"
+  },
+  "bugs": {
+    "url": "https://github.com/allure-framework/allure-npm/issues"
+  },
+  "dependencies": {},
+  "description": "Wrapper to install Allure-commandline via NPM",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "62e3d50efcf79e0209830d10233b961993e3d05a",
+    "tarball": "https://registry.npmjs.org/allure-commandline/-/allure-commandline-1.4.23.tgz"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "index.js"
+  ],
+  "gitHead": "0fcf878aa8e7eac17c05d70f4ee1fd67183436ae",
+  "homepage": "https://github.com/allure-framework/allure-npm#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "just-boris@hotmail.com",
+      "name": "just-boris"
+    },
+    {
+      "email": "vania-pooh@yandex-team.ru",
+      "name": "vania-pooh"
+    }
+  ],
+  "name": "allure-commandline",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allure-framework/allure-npm.git"
+  },
+  "scripts": {},
+  "version": "1.4.23"
+}

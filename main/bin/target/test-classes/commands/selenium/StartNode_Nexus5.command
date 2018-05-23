@@ -1,0 +1,1 @@
+appium -a nodeIPAddress -p 4730 -U 0b0be5eb0c027952 --command-timeout 180 --nodeconfig $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/NodeConfigPhone_Android.json

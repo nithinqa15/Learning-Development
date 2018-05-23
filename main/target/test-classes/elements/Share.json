@@ -1,0 +1,303 @@
+{
+    "shareBtn":
+    {
+        "SimpleName": "Share Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Share Button'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/action_share\")"
+            }
+        }
+    },
+    "shareTtl":
+    {
+        "SimpleName": "Share Title",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::text(\"Share\")",
+                "AllDevicesAndroid7": "AndroidUIAutomator::text(\"SHARE\")"
+            }
+        }
+    },
+    "gmailBtn":
+    {
+        "SimpleName": "Gmail Button",
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Gmail\")"
+            }
+        }
+    },
+    "emailBtn":
+    {
+        "SimpleName": "Email Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::Mail"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AndroidUIAutomator::textContains(\"Email\")"
+            }
+        }
+    },
+    "cancelBtn":
+    {
+        "SimpleName": "Cancel Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::Cancel"
+            }
+        }
+    },
+    "moreBtn":
+    {
+        "SimpleName": "More Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::More"
+            }
+        }
+    },
+    "copyBtn":
+    {
+        "SimpleName": "Copy Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::Copy"
+            }
+        }
+    },
+    "doneBtn":
+    {
+        "SimpleName": "Done Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "AccessibilityId::Done"
+            }
+        }
+    },
+    "ShareActivityListScreen":
+    {
+        "SimpleName": "Share Activity List view",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeOther' AND wdName == 'ActivityListView'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "TwitterBtn":
+    {
+        "SimpleName": "Twitter button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Twitter'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "FacebookBtn":
+    {
+        "SimpleName": "Facebook Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Facebook'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "iCloudBtn":
+    {
+        "SimpleName": "iCloud Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Add To iCloud Drive'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+	"MessageBtn":
+    {
+        "SimpleName": "Message Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Message'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+   	"AddtoNotesBtn":
+    {
+        "SimpleName": "Add to Notes Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Add to Notes'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "shareSeriesTitle":
+    {
+        "SimpleName": "$inText Share Sereis Title",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeTextView' AND wdName == \"$inText\""
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "upgradeNotesAlert":
+    {
+        "SimpleName": "Upgrade Notes Alert",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeAlert' AND wdName == 'Upgrade Your Notes'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "alertCancelBtn":
+    {
+        "SimpleName": "Alert Cancel Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Cancel'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "goToNotesBtn":
+    {
+        "SimpleName": "Go To Notes Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Go to Notes'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    },
+    "returnToParamountBtn":
+    {
+        "SimpleName": "Return To Paramount Btn",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Return to Paramount Net'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": " "
+            }
+        }
+    }
+}

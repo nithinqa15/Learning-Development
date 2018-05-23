@@ -1,0 +1,168 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VIMN Test Suite" parallel="methods" preserve-order="true" thread-count="1">
+
+    <!-- RUNTIME CONFIG -->
+    <parameter name="RunAsFactory" value="false"></parameter> <!-- true, false -->
+    <parameter name="DebugProxyPort" value="8888"></parameter>
+    <parameter name="MobileOS" value="Android"></parameter> <!-- Android, iOS -->
+    <parameter name="AppName" value="VH1"></parameter> 
+    
+    <!-- MTV_DOMESTIC, MTV_INTL, 
+	     BET_DOMESTIC, BET_INTL,
+	     CC_DOMESTIC, CC_INTL, 
+	     TVLand, CMT, VH1, 
+	     PARAMOUNT -->
+
+    <parameter name="Locale" value="en_us"></parameter> <!-- es_mx, en_us, es_hn, es_sv -->
+    <parameter name="AppType" value="QA"></parameter> <!-- Dev (iOS), Release (iOS and Android), QA (Android) -->
+    <parameter name="DeviceCategory" value="Phone"></parameter> <!-- Phone, Tablet -->
+    <parameter name="DeviceBandwidth" value="0"></parameter> <!-- Bytes Per Second i.e. 1048576 (1 Meg) or 0 for no throttling -->
+    <parameter name="NetworkLatency" value="0"></parameter> <!-- Latency in Milliseconds or 0 for no latency -->
+    <parameter name="ReRunOnFailure" value="false"></parameter>
+    <parameter name="ReRunOnFailureCount" value="1"></parameter>
+    <parameter name="UploadReportToJenkins" value="false"></parameter>
+    <parameter name="SetHueLights" value="false"></parameter>
+    <parameter name="SendChatReport" value="false"></parameter>
+    <parameter name="SendReportAutoEmails" value="false"></parameter>
+    <parameter name="SendReportEmailAddress" value=""></parameter>
+    <parameter name="SendSplunkData" value="false"></parameter>
+    <parameter name="ContentDomain" value="Live"></parameter> <!-- Test OR Live -->
+
+    <!-- APP CONFIG -->
+    <parameter name="AppURL" value="Latest"></parameter>
+    <parameter name="PathToAppPackage" value="null"></parameter>
+    <parameter name="BuildNumber" value="Latest"></parameter>
+    <parameter name="MTVDomesticAndroidAppPackageAlphaQA" value="com.mtvn.mtvPrimeAndroid.qa"></parameter>
+    <parameter name="MTVDomesticAndroidAppPackageBetaRelease" value="com.mtvn.mtvPrimeAndroid"></parameter>
+    <parameter name="MTVDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="MTVDomesticiOSBundleIDDev" value="com.mtvn.mtvPrimeiPad.dev"></parameter>
+    <parameter name="MTVDomesticiOSBundleIDRelease" value="com.mtvn.mtvPrimeiPad"></parameter>
+    <parameter name="MTVINTLAndroidAppPackageAlphaQA" value="com.vmn.playplex.qa"></parameter>
+    <parameter name="MTVINTLAndroidAppPackageBetaRelease" value="com.vmn.playplex"></parameter>
+    <parameter name="MTVINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="MTVINTLiOSBundleIDDev" value="com.mtvn.mtvplayplex.dev"></parameter>
+    <parameter name="MTVINTLiOSBundleIDRelease" value="com.mtvn.mtvplayplex.dev"></parameter>
+    <parameter name="CCDomesticAndroidAppPackageAlphaQA" value="com.vmn.android.comedycentral.qa"></parameter>
+    <parameter name="CCDomesticAndroidAppPackageBetaRelease" value="com.vmn.android.comedycentral"></parameter>
+    <parameter name="CCDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="CCDomesticiOSBundleIDDev" value="com.mtvn.ccnetwork.dev"></parameter>
+    <parameter name="CCDomesticiOSBundleIDRelease" value="com.mtvn.ccnetwork"></parameter>
+    <parameter name="CCINTLAndroidAppPackageAlphaQA" value="com.vmn.playplex.comedycentral.qa"></parameter>
+    <parameter name="CCINTLAndroidAppPackageBetaRelease" value="com.vmn.playplex.comedycentral"></parameter>
+    <parameter name="CCINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="CCINTLiOSBundleIDDev" value="com.mtvn.ccplayplex.dev"></parameter>
+    <parameter name="CCINTLiOSBundleIDRelease" value="com.mtvn.ccplayplex"></parameter>
+    <parameter name="TVLandAndroidAppPackageAlphaQA" value="com.vmn.playplex.tvland.qa"></parameter>
+    <parameter name="TVLandAndroidAppPackageBetaRelease" value="com.vmn.playplex.tvland"></parameter>
+    <parameter name="TVLandAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="TVLandiOSBundleIDDev" value="com.mtvn.tvlandplayplex.dev"></parameter>
+    <parameter name="TVLandiOSBundleIDRelease" value="com.mtvn.tvlandplayplex.dev"></parameter>
+    <parameter name="BETINTLAndroidAppPackageAlphaQA" value = "com.vmn.playplex.bet.qa"></parameter>
+    <parameter name="BETINTLAndroidAppPackageBetaRelease" value = "com.vmn.playplex.bet"></parameter>
+    <parameter name="BETINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="BETINTLiOSBundleIDDev" value="com.mtvn.betplayplex"></parameter>
+    <parameter name="BETINTLiOSBundleIDRelease" value="com.mtvn.mtvplayplex"></parameter>
+    <parameter name="BETDomesticAndroidAppPackageAlphaQA" value= "com.bet.shows.qa"></parameter>
+    <parameter name="BETDomesticAndroidAppPackageBetaRelease" value= "com.bet.shows"></parameter>
+    <parameter name="BETDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="BETDomesticiOSBundleIDDev" value="com.bet.betshows.dev"></parameter>
+    <parameter name="BETDomesticiOSBundleIDRelease" value="com.bet.betshows"></parameter>
+    <parameter name="CMTAndroidAppPackageAlphaQA" value="com.mtvn.cmtandroid.qa"></parameter>
+    <parameter name="CMTAndroidAppPackageBetaRelease" value="com.mtvn.cmtandroid"></parameter>
+    <parameter name="CMTAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="CMTiOSBundleIDDev" value="com.mtvn.cmtapp.dev"></parameter>
+    <parameter name="CMTiOSBundleIDRelease" value="com.mtvn.cmtapp.dev"></parameter>
+    <parameter name="VH1AndroidAppPackageAlphaQA" value="com.mtvn.vh1android.qa"></parameter>
+    <parameter name="VH1AndroidAppPackageBetaRelease" value="com.mtvn.vh1android"></parameter>
+    <parameter name="VH1AndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="VH1iOSBundleIDDev" value="com.mtvn.vh1tvtunein.dev"></parameter>
+    <parameter name="VH1iOSBundleIDRelease" value="com.mtvn.vh1tvtunein"></parameter>
+    <parameter name="ParamountAndroidAppPackageAlphaQA" value="com.vmn.android.spike.qa"></parameter>
+    <parameter name="ParamountAndroidAppPackageBetaRelease" value="com.vmn.android.spike"></parameter>
+    <parameter name="ParamountAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"></parameter>
+    <parameter name="ParamountiOSBundleIDDev" value="com.mtvn.SPIKE"></parameter>
+    <parameter name="ParamountiOSBundleIDRelease" value="com.mtvn.SPIKE"></parameter>
+    <parameter name="AutoAcceptiOSAlerts" value="true"></parameter>
+    <parameter name="ApplicationTitle" value="VIMNNative"></parameter>
+    <parameter name="PathToElements" value="/src/test/resources/elements/"></parameter>
+    <parameter name="PathToLabConfig" value="/src/test/resources/LabConfig.json"></parameter>
+    <parameter name="PathToLocaleDataConfig" value="/src/test/resources/LocaleDataConfig.json"></parameter>
+    <parameter name="PathToBrandDataConfig" value="/src/test/resources/BrandDataConfig.json"></parameter>
+    <parameter name="PathToXMLDumps" value="/test-output/xmldumps/"></parameter>
+    <parameter name="ApiVersion" value="1.9"></parameter>
+    <parameter name="iOSAppVersion" value="4.5"></parameter>
+    <parameter name="AndroidAppVersion" value="10.54.0"></parameter>
+
+    <!-- REPORT CONFIG -->
+    <parameter name="EmailSenderAddress" value="NOREPLY@dteqa.com"></parameter>
+    <parameter name="AttachAppXMLTreeLogs" value="true"></parameter>
+    <parameter name="AttachAppProxyLogs" value="true"></parameter>
+    <parameter name="AttachDeviceLogs" value="true"></parameter>
+    <parameter name="PathToScreenshots" value="/test-output/screenshots/"></parameter>
+    <parameter name="HueBridgeIP" value=""></parameter>
+    <parameter name="HueUserId" value=""></parameter>
+    <parameter name="HueAndroidLightId" value=""></parameter>
+    <parameter name="HueiOSLightId" value=""></parameter>
+    <parameter name="PathToiOSJenkinsWorkspace" value="/Users/mqeadmin/.jenkins/jobs/VIMN-Native-iOS/workspace/"></parameter>
+    <parameter name="PathToAndroidJenkinsWorkspace" value="/Users/mqeadmin/.jenkins/jobs/VIMN-Native-Android/workspace/"></parameter>
+    <parameter name="iOSJenkinsWorkspaceUrl" value="http://mqe.viacom.com:8080/job/VIMN-Native-iOS/ws/"></parameter>
+    <parameter name="AndroidJenkinsWorkspaceUrl" value="http://mqe.viacom.com:8080/job/VIMN-Native-Android/ws/"></parameter>
+    <parameter name="PathToAllureiOSResults" value="/test-output/allure-results/iOS/"></parameter>
+    <parameter name="PathToAllureAndroidResults" value="/test-output/allure-results/Android/"></parameter>
+    <parameter name="S3BucketName" value="PlayplexNative"></parameter>
+    <parameter name="iOSMegaBeaconUrl" value="http://mb.mtvnservices.com/data/collect/v1"></parameter>
+    <parameter name="AndroidMegaBeaconUrl" value="http://mb.mtv.com/data/collect/v1"></parameter>
+
+    <!-- SPLUNK CONFIG -->
+    <parameter name="SplunkUsername" value=""></parameter>
+    <parameter name="SplunkPassword" value=""></parameter>
+    <parameter name="SplunkIndex" value="playplexnative"></parameter>
+
+    <!-- CHAT CONFIG -->
+    <parameter name="DTEChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/2095232/notification?auth_token=K9tEbKt506J0gSMsxFqY6aExGsCh4y8EvtuqiyBv"></parameter>
+    <parameter name="AndroidChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/4411493/notification?auth_token=hSsgEB0ERRQcwKELm35XWIFm39ytcjvWyuj92h7l"></parameter>
+    <parameter name="iOSChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/2975547/notification?auth_token=cFpBc63KBXL6JxhBWxc9NujK4hFEp2dDVaSLdXc0"></parameter>
+
+    <!-- SLACK CONFIG -->
+    <parameter name="PlayPlexAndroidSlackWebhook" value="https://hooks.slack.com/services/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"></parameter>
+    <parameter name="PlayPlexiOSSlackWebhook" value="https://hooks.slack.com/services/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"></parameter>
+
+    <!-- WEBDRIVER CONFIG -->
+    <parameter name="VideoImageTimeout" value="20"></parameter> <!-- Seconds -->
+    <parameter name="WaitForWaitTime" value="20"></parameter> <!-- Seconds -->
+    <parameter name="PollingTime" value="500"></parameter> <!-- Milliseconds -->
+    <parameter name="IOSAutoScreenshotWait" value="5"></parameter> <!-- Seconds -->
+    <parameter name="ServerCommandTimeout" value="60"></parameter> <!-- Seconds < grid hub/node timeout -->
+
+    <!-- LISTENERS -->
+    <listeners>
+        <listener class-name="com.viacom.test.vimn.common.listeners.TestListeners" />
+        <listener class-name="com.viacom.test.vimn.common.listeners.SuiteListeners" />
+        <listener class-name="com.viacom.test.vimn.common.listeners.TestAnnotationTransformer" />
+    </listeners>
+
+    <!-- TEST EXECUTION QUEUE -->
+    <test verbose="1" name="All Mobile Tests" annotations="JDK">
+
+        <!-- TEST GROUPS
+            "Full" - all tests in the test suite.
+            "Certify" - a subset of the full test group that is required to certify a build.
+            "Broken" - those tests that are broken and safe to ignore until they can be resolved.
+            "OnRequest" - those tests that are so low priority and so time intensive we only run on request.
+        -->
+
+        <groups>
+            <run>
+                <include name="Debug" />
+                <exclude name="Broken" />
+                <exclude name="Sensitive" />
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.viacom.test.vimn.uitests.tests.*" />
+        </packages>
+
+    </test>
+
+</suite>

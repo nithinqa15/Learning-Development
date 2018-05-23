@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [VIMN Test Suite]" parallel="methods">
+  <parameter name="PathToAllureAndroidResults" value="/test-output/allure-results/Android/"/>
+  <parameter name="SendSplunkData" value="false"/>
+  <parameter name="BETDomesticiOSBundleIDRelease" value="com.bet.betshows"/>
+  <parameter name="BETDomesticiOSBundleIDDev" value="com.bet.betshows.dev"/>
+  <parameter name="BETDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="AndroidChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/4411493/notification?auth_token=hSsgEB0ERRQcwKELm35XWIFm39ytcjvWyuj92h7l"/>
+  <parameter name="DTEChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/2095232/notification?auth_token=K9tEbKt506J0gSMsxFqY6aExGsCh4y8EvtuqiyBv"/>
+  <parameter name="UploadReportToJenkins" value="false"/>
+  <parameter name="DeviceCategory" value="Phone"/>
+  <parameter name="ParamountAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="PathToLabConfig" value="/src/test/resources/LabConfig.json"/>
+  <parameter name="CCDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="PathToBrandDataConfig" value="/src/test/resources/BrandDataConfig.json"/>
+  <parameter name="CCINTLiOSBundleIDRelease" value="com.mtvn.ccplayplex"/>
+  <parameter name="MTVDomesticAndroidAppPackageBetaRelease" value="com.mtvn.mtvPrimeAndroid"/>
+  <parameter name="MTVDomesticiOSBundleIDDev" value="com.mtvn.mtvPrimeiPad.dev"/>
+  <parameter name="SplunkUsername" value=""/>
+  <parameter name="MTVINTLAndroidAppPackageAlphaQA" value="com.vmn.playplex.qa"/>
+  <parameter name="TVLandAndroidAppPackageBetaRelease" value="com.vmn.playplex.tvland"/>
+  <parameter name="BETINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="MTVINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="PollingTime" value="500"/>
+  <parameter name="VH1AndroidAppPackageBetaRelease" value="com.mtvn.vh1android"/>
+  <parameter name="ContentDomain" value="Live"/>
+  <parameter name="AndroidMegaBeaconUrl" value="http://mb.mtv.com/data/collect/v1"/>
+  <parameter name="ApplicationTitle" value="VIMNNative"/>
+  <parameter name="HueiOSLightId" value=""/>
+  <parameter name="AppType" value="QA"/>
+  <parameter name="HueBridgeIP" value=""/>
+  <parameter name="SplunkIndex" value="playplexnative"/>
+  <parameter name="HueAndroidLightId" value=""/>
+  <parameter name="VH1AndroidAppPackageAlphaQA" value="com.mtvn.vh1android.qa"/>
+  <parameter name="PathToAllureiOSResults" value="/test-output/allure-results/iOS/"/>
+  <parameter name="PathToiOSJenkinsWorkspace" value="/Users/mqeadmin/.jenkins/jobs/VIMN-Native-iOS/workspace/"/>
+  <parameter name="SendReportAutoEmails" value="false"/>
+  <parameter name="SendReportEmailAddress" value=""/>
+  <parameter name="PathToAndroidJenkinsWorkspace" value="/Users/mqeadmin/.jenkins/jobs/VIMN-Native-Android/workspace/"/>
+  <parameter name="ReRunOnFailure" value="false"/>
+  <parameter name="BETINTLAndroidAppPackageAlphaQA" value="com.vmn.playplex.bet.qa"/>
+  <parameter name="TVLandAndroidAppPackageAlphaQA" value="com.vmn.playplex.tvland.qa"/>
+  <parameter name="ReRunOnFailureCount" value="1"/>
+  <parameter name="BETINTLAndroidAppPackageBetaRelease" value="com.vmn.playplex.bet"/>
+  <parameter name="ApiVersion" value="1.9"/>
+  <parameter name="MTVINTLAndroidAppPackageBetaRelease" value="com.vmn.playplex"/>
+  <parameter name="ParamountiOSBundleIDDev" value="com.mtvn.SPIKE"/>
+  <parameter name="BETDomesticAndroidAppPackageAlphaQA" value="com.bet.shows.qa"/>
+  <parameter name="DeviceBandwidth" value="0"/>
+  <parameter name="MTVDomesticAndroidAppPackageAlphaQA" value="com.mtvn.mtvPrimeAndroid.qa"/>
+  <parameter name="VH1iOSBundleIDDev" value="com.mtvn.vh1tvtunein.dev"/>
+  <parameter name="iOSJenkinsWorkspaceUrl" value="http://mqe.viacom.com:8080/job/VIMN-Native-iOS/ws/"/>
+  <parameter name="BuildNumber" value="Latest"/>
+  <parameter name="PathToLocaleDataConfig" value="/src/test/resources/LocaleDataConfig.json"/>
+  <parameter name="S3BucketName" value="PlayplexNative"/>
+  <parameter name="MTVDomesticiOSBundleIDRelease" value="com.mtvn.mtvPrimeiPad"/>
+  <parameter name="Locale" value="en_us"/>
+  <parameter name="ParamountiOSBundleIDRelease" value="com.mtvn.SPIKE"/>
+  <parameter name="SplunkPassword" value=""/>
+  <parameter name="PathToXMLDumps" value="/test-output/xmldumps/"/>
+  <parameter name="MTVINTLiOSBundleIDRelease" value="com.mtvn.mtvplayplex.dev"/>
+  <parameter name="CCDomesticiOSBundleIDDev" value="com.mtvn.ccnetwork.dev"/>
+  <parameter name="ParamountAndroidAppPackageAlphaQA" value="com.vmn.android.spike.qa"/>
+  <parameter name="VideoImageTimeout" value="20"/>
+  <parameter name="iOSChatWebHookUrl" value="https://vmndigital.hipchat.com/v2/room/2975547/notification?auth_token=cFpBc63KBXL6JxhBWxc9NujK4hFEp2dDVaSLdXc0"/>
+  <parameter name="iOSAppVersion" value="4.5"/>
+  <parameter name="CCDomesticAndroidAppPackageBetaRelease" value="com.vmn.android.comedycentral"/>
+  <parameter name="DebugProxyPort" value="8888"/>
+  <parameter name="AttachAppXMLTreeLogs" value="true"/>
+  <parameter name="CMTAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="HueUserId" value=""/>
+  <parameter name="TVLandiOSBundleIDRelease" value="com.mtvn.tvlandplayplex.dev"/>
+  <parameter name="AndroidAppVersion" value="10.54.0"/>
+  <parameter name="MTVDomesticAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="CCINTLiOSBundleIDDev" value="com.mtvn.ccplayplex.dev"/>
+  <parameter name="AttachAppProxyLogs" value="true"/>
+  <parameter name="PathToAppPackage" value="null"/>
+  <parameter name="CCINTLAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="CCDomesticAndroidAppPackageAlphaQA" value="com.vmn.android.comedycentral.qa"/>
+  <parameter name="CMTiOSBundleIDDev" value="com.mtvn.cmtapp.dev"/>
+  <parameter name="VH1AndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="CMTiOSBundleIDRelease" value="com.mtvn.cmtapp.dev"/>
+  <parameter name="PathToElements" value="/src/test/resources/elements/"/>
+  <parameter name="AppName" value="VH1"/>
+  <parameter name="TVLandiOSBundleIDDev" value="com.mtvn.tvlandplayplex.dev"/>
+  <parameter name="PlayPlexiOSSlackWebhook" value="https://hooks.slack.com/services/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"/>
+  <parameter name="PlayPlexAndroidSlackWebhook" value="https://hooks.slack.com/services/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"/>
+  <parameter name="CCINTLAndroidAppPackageAlphaQA" value="com.vmn.playplex.comedycentral.qa"/>
+  <parameter name="SetHueLights" value="false"/>
+  <parameter name="CCDomesticiOSBundleIDRelease" value="com.mtvn.ccnetwork"/>
+  <parameter name="SendChatReport" value="false"/>
+  <parameter name="CMTAndroidAppPackageBetaRelease" value="com.mtvn.cmtandroid"/>
+  <parameter name="AutoAcceptiOSAlerts" value="true"/>
+  <parameter name="TVLandAndroidLaunchActivity" value="com.vmn.playplex.main.MainActivity"/>
+  <parameter name="WaitForWaitTime" value="20"/>
+  <parameter name="PathToScreenshots" value="/test-output/screenshots/"/>
+  <parameter name="MTVINTLiOSBundleIDDev" value="com.mtvn.mtvplayplex.dev"/>
+  <parameter name="CMTAndroidAppPackageAlphaQA" value="com.mtvn.cmtandroid.qa"/>
+  <parameter name="NetworkLatency" value="0"/>
+  <parameter name="MobileOS" value="Android"/>
+  <parameter name="AppURL" value="Latest"/>
+  <parameter name="RunAsFactory" value="false"/>
+  <parameter name="BETINTLiOSBundleIDRelease" value="com.mtvn.mtvplayplex"/>
+  <parameter name="iOSMegaBeaconUrl" value="http://mb.mtvnservices.com/data/collect/v1"/>
+  <parameter name="BETINTLiOSBundleIDDev" value="com.mtvn.betplayplex"/>
+  <parameter name="VH1iOSBundleIDRelease" value="com.mtvn.vh1tvtunein"/>
+  <parameter name="IOSAutoScreenshotWait" value="5"/>
+  <parameter name="EmailSenderAddress" value="NOREPLY@dteqa.com"/>
+  <parameter name="BETDomesticAndroidAppPackageBetaRelease" value="com.bet.shows"/>
+  <parameter name="ParamountAndroidAppPackageBetaRelease" value="com.vmn.android.spike"/>
+  <parameter name="ServerCommandTimeout" value="60"/>
+  <parameter name="AttachDeviceLogs" value="true"/>
+  <parameter name="CCINTLAndroidAppPackageBetaRelease" value="com.vmn.playplex.comedycentral"/>
+  <parameter name="AndroidJenkinsWorkspaceUrl" value="http://mqe.viacom.com:8080/job/VIMN-Native-Android/ws/"/>
+  <listeners>
+    <listener class-name="com.viacom.test.vimn.common.listeners.TestListeners"/>
+    <listener class-name="com.viacom.test.vimn.common.listeners.SuiteListeners"/>
+    <listener class-name="com.viacom.test.vimn.common.listeners.TestAnnotationTransformer"/>
+  </listeners>
+  <test name="All Mobile Tests">
+    <groups>
+      <run>
+        <include name="Debug"/>
+        <exclude name="Broken"/>
+        <exclude name="Sensitive"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.viacom.test.vimn.uitests.tests.*"/>
+    </packages>
+    <classes>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureEPGScreenCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureMainScreenCarouselPagesTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureMainShowsScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureSwipeFromHomeToClipReelTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureMainLaunchScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureNewSeasonSelectionCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureNewEpisodeSelectionCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.pagecalls.OmnitureSeriesDetailsViewTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureTapWatchEpisodeButtonOnClipsViewTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureVerticalSwipeOnClipsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureClipToEpisodeTabChangeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureBackgroundVideoEngagementHomeScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureAutoplayToggleCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureBackgroundImageEngagementHomeScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureSharingCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureNoHorizontalSwipingBehaviourOnClipTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureEpisodeToClipTabChangeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureHorizontalSwipeOnSeriesTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmniturePlayFromBeginningCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureCellularVideoPlaybackToggleCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureFullScreenToggleCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureHorizontalSwipeOnClipsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.linkcalls.OmnitureAutoplayClipsToggleCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.tvecalls.OmnitureTVEUserAuthenticationStatusCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.tvecalls.OmnitureSettingsPageMVPDSelectedCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.tvecalls.OmnitureSettingsPageMVPDNotListedCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.tvecalls.OmnitureTVEContentAuthenticationStatusCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.tvecalls.OmnitureSettingsPageTVELoginSuccessfulCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.playercalls.OmnitureAdStartCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.playercalls.OmniturePlaylistStartPlayerCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.playercalls.OmnitureLiveStreamStartPlayerTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.playercalls.OmnitureClipStartPlayerCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.countrycheckcalls.OmnitureUserCountryCheckCallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.countrycheckcalls.OmnitureUnsupportedCountryScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.omniture.suiteID.OmnitureDevSuiteIDTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.megabeacon.MegabeaconClipStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.megabeacon.MegabeaconFeStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.megabeacon.MegabeaconAdStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.FullscreenPausePlayAdsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.PrerollsForClipsHomeToClipsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.PreRollPlayingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.MOATEnabledCallsFireForAdsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.CountDownTimerAdsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.MOATEnabledPausePlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.PausePlayAdsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.MidRollPlayingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.LearnMoreTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.ads.MOATEnabledLearnMoreTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.TogglesOnOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.KeyboardInputTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.TermsAndConditionsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.LegalNoticesTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.AppVersionTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.ContactTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.TVProviderLogoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.PlaybackOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.PrivacyPolicyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.DefaultSettingsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.LiveTVToSettingsAndBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.settings.PlaybackOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.WatchTrailerTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.ClipWithoutRelatedEpisodeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.NoClipToPlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.continousplayback.ClipsContinuousPlaybackWithAutoplayClipsOn"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.continousplayback.ClipsContinousPlaybackWithAutoplayClipsOnLandscapeMode"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.continousplayback.ClipsContinuousPlaybackEndOfPlaylistReached"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.continousplayback.ClipsContinuousPlaybackWithAutoplayClipsOff"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.ScrollUpAndDownClipsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.ClipsAutoplayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.PlayPauseClipsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.ClipsMetadataTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.FightsWatchExtrasTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.clips.SwipeToNextClipStreamAndBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapBackgroundAndBackAutoplayClipsOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapWatchXtrasButtonAndBackClipAutoplayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapEpisodeButtonAndBackWithAutoplayClipsRegularEpisodesTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapFullEpisodeButtonAndBackClipAutoPlayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapFullEpisodeButtonAndBackAutoplayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapWatchXtrasButtonAndBackAutoplayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.truebackgroundvideoservices.TapFullEpisodeButtonAndBackClipAutoPlayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.ErrorInPromotionFeedsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.CustomHomeTemplateTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.NoConnectionErrorScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.NonexistenceHomeTemplateTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.DefaultHomeTemplateTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.general.ContentUnavailableErrorScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByEpisodeNumberInAscendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.ScrollUpDownTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.ShareBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.LockUnlockTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.PausePlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.OpenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.ExpectedEpisodeIsPlayingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.FightShareTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.BackToHomeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodeDescriptionTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByOriginalPublishDateInDescendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByOriginalPublishDateInAscendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByOriginalAirDateInDescendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByOriginalAirDateInAscendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.MoviesShareTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.EpisodesByEpisodeNumberInDescendingOrderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.MoviesContentMetaDataTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.showdetails.SeasonSelectorTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapBackgroundAndBackAutoplayClipsOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.NoPlaybackOnHomeShortFormTrueTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.MultipleActionsAndBackHomeWithClipsOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapFullEpisodeButtonAndBackAutoplayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapFullEpisodeButtonAndBackAutoplayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapWatchXtrasButtonAndBackAutoplayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.MultipleActionsAndBackHomeWithClipsOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapWatchXtrasButtonAndBackAutoplayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.NoMuteButtonOnHomeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.falsebackgroundvideoservices.TapEpisodeButtonAndBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.FullScreenTimestampTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.PausePlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.TimeForPausedVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.TimestampTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.FullScreenPausePlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.DefaultTimeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.videoplayer.MaximizeMinimizeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.FBAnalytics.FBAnalyticsAppIDTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.apptentive.SendMessageTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.apptentive.VisitMessageCenterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.ShortFormFeatureTogglingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.WatchExtrasOnHomeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.ClipsAutoPlayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.WatchXtrasButtonTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.TappingOnCarouselImageTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.ClipsAutoPlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.SwipeOnSeriesDetailsSkipsSeriesWithClipsOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.shortformonly.ClipReelPageButtonsHiddenForShortFormOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.search.SearchKeywordsAPITest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.search.SearchAllShowsToggleTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.search.SearchAPITest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.heartbeat.HeartbeatClipStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.heartbeat.HeartbeatFeStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.heartbeat.HeartbeatAdStartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.livetv.OnNowShowNoteTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.livetv.PausePlayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.livetv.DisplayLiveTVForAllUsersTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.livetv.MaximizeMinimizeTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.NoVideosLeftToPlayAutoPlayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.NoVideosLeftToPlayAutoPlayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.MoviesContentPlaybackAutoplayONTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.NotLoggedInWithTVETest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.FightsContentPlaybackAutoplayOFFTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackIsActiveLoadingNewVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.MoviesContentPlaybackAutoplayOFFTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackIsOnPauseLoadNewVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.MoviesContentResumePlaybackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.VideoEndsAutoPlayOnVideosLeftToPlayLoggedIntoTVETest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackAndConnectionTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackFeaturedFilmTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.VideoEndsAutoPlayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.ScrubberTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.FightsContentPlaybackAutoplayONTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.FightsContentResumePlaybackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackVideoIsInBackgroundTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.playback.PlaybackIsLoadingLoadNewVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.NavToSettingsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.PreviewTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.TapBackgroundTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.SwipeTheBackgroundVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.LockUnlockTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.NewSeasonSeriesNoteTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.BackgroundTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.SwipeCarouselTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.NewEpisodeSeriesNoteTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.MoviesContentHomeScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.SelectSeriesTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.ProgressBarTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.NewSeriesNoteTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.FightsContentHomeScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.BackToHomeFromLiveTVTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.BackgroundVideoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.MoviesContentNoSupportedRibbonsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.ToClipsAndBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.homescreen.FightContentSupportedRibbonsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.FiltersUnitTest.AllShowsPropertyFilterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.FiltersUnitTest.ShortformFilterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.FiltersUnitTest.PropertyFilterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.FiltersUnitTest.LongformFilterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.notifiers.AcceptBalaTermsAfterReadingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.notifiers.AcceptBalaTermsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.VIPFacebookTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInVerizonTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInSignOutTVLandTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.VIPSignInCancelTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInBrighthouseTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInWOWTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInBlueToGoTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInFrontierTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInServiceElectricTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInDirectTVTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.ForgotUserIdOrPasswordTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInSingtelTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInTelecentroTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.ViewAllProvidersTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInOptimumTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInXfinityRegisterTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInCoxTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInTimeWarnerCableTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInStofaProviderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.VIPCreateCancelTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.ToTwitterAndBackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInRiksProviderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.IncorrectLoginOptimumTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInMediacomTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignOutXfinityTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInClaroTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInBoxerProviderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInGetProviderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.MVPDRecallTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SearchProviderTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.VIPSignInInvalidTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInATTTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInDishTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SubscriptionRequiredTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInSkyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInMegacableTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.XfinityErrorFeedbackTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckLoginFromProvidersListTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckDontSeeProviderFromProviderListTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckLoginFromEpisodesLockedTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckRefreshTokenInternationalTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckLoggedOutRestartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckLoginWithAuthNNoAuthZTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckLoggedInRestartTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.smokesuite.CheckPickerReopeningTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.IncorrectLoginMegacableTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInRCNTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.tve.SignInFromAllProviderListTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.FullEpisodesButtonAutoPlayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.SwipeVerticallyOnEpisodesOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.SwipeHorizontallyOnSeriesDetailsViewAutoplayOffTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.BackToHomeScreenFromFullEpisodesButtonTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.TappingOnBackgroundImageTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.EpisodesButtonOnHomeScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.LoadNewEpisodeWithEpisodesOnlyAutoplayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.FullEpisodesButtonAutoPlayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.BackToHomeScreenFromTapOnBackgroundImageTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.SwipeHorizontallyOnSeriesDetailsViewAutoplayOnTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.episodesonly.SwipeOnClipReelSkipsOverSeriesWithEpisodesOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryMTVNorthTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryCCMTVBrazilTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryCCMTVUKTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryCCMTVSEATest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryTVLandCMTVH1ParamountMTVCCBETCoverageTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryCCMTVLatAmTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.singlebinary.SingleBinaryBETGermanyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.FightsContentAllShowsScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsAutoplayTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsEpisodesOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsShouldHaveAllTheShowsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsClipsOnlyTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.ContentPlaysFromSavedPositionTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsNavigationTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.AllShowsScrollTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.NoProgressBarOnAllShowTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.allshows.MoviesContentAllShowsTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.smokesuite.ContentDetailScreenTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.smokesuite.VideoPlaybackTogglePlayPauseTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.smokesuite.NavigationAndReportingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.smokesuite.TVEFlowAndReportingTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.smokesuite.ConfigEndPointTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.share.ShareLocatorTest"/>
+      <class name="com.viacom.test.vimn.uitests.tests.share.ShareButtonHiddenKidsComplianceTest"/>
+    </classes>
+  </test> <!-- All Mobile Tests -->
+</suite> <!-- Failed suite [VIMN Test Suite] -->

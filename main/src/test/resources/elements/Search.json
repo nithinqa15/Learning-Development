@@ -1,0 +1,92 @@
+{
+    "searchFieldBtn":
+    {
+        "SimpleName": "Search Field Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeSearchField' AND wdName == 'Search'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "backSearchScreenBtn":
+    {
+        "SimpleName": "Back Search Screen Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == '<'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "clearTextBtn":
+    {
+        "SimpleName": "Clear Text Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Clear text'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "cancelTextBtn":
+    {
+        "SimpleName": "Cancel Text Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeButton' AND wdName == 'Cancel'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    },
+    "allSearchResultsBtn":
+    {
+        "SimpleName": "All Search Results Button",
+        "iOS":
+        {
+            "AllApps":
+            {
+                "AllDevices":"IosNsPredicate::wdType == 'XCUIElementTypeStaticText' AND wdName CONTAINS 'all'"
+            }
+        },
+        "Android":
+        {
+            "AllApps":
+            {
+                "AllDevices": ""
+            }
+        }
+    }
+}

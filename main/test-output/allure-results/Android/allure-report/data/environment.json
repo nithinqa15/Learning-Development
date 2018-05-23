@@ -1,0 +1,34 @@
+{
+  "id" : "8924f45b-004b-4c14-9d4a-ba5d528c3115",
+  "name" : "Allure Test Pack",
+  "url" : null,
+  "parameter" : [ {
+    "name" : "AppPackage",
+    "key" : "AppPackage",
+    "value" : ""
+  }, {
+    "name" : "APIVersion",
+    "key" : "APIVersion",
+    "value" : "1.9"
+  }, {
+    "name" : "BuildNumber",
+    "key" : "BuildNumber",
+    "value" : "Latest"
+  }, {
+    "name" : "ContentDomain",
+    "key" : "ContentDomain",
+    "value" : "Live"
+  }, {
+    "name" : "AppVersion",
+    "key" : "AppVersion",
+    "value" : "10.54.0"
+  }, {
+    "name" : "AppName",
+    "key" : "AppName",
+    "value" : "VH1"
+  }, {
+    "name" : "MobileOS",
+    "key" : "MobileOS",
+    "value" : "Android"
+  } ]
+}

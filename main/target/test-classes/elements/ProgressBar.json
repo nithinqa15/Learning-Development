@@ -1,0 +1,92 @@
+{
+	"loadingSpinnerIcn":
+	{
+		"SimpleName": "Loading Spinner",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeActivityIndicator'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/loading_panel\")"
+			}
+		}
+	},
+    "videoProgressBarIcn":
+    {
+    	"SimpleName": "Video Progress Bar Spinner",
+    	"iOS":
+    	{
+    		"AllApps":
+    		{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'control_loadingWhite'"
+    		}
+    	},
+    	"Android":
+    	{
+    		"AllApps":
+    		{
+    		    "AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/loading_panel\")"
+    		}
+    	}
+    },
+	"loadingSpinnerPlaylistIcn":
+	{
+		"SimpleName": "Playlist Loading Spinner Icon",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": "IosNsPredicate::wdType == 'XCUIElementTypeImage' AND wdName == 'universal_loading'"
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/loader_screen\")"
+			}
+		}
+	},
+	"loadingSpinnerClipsPlaylistIcn":
+	{
+		"SimpleName": "Clips Playlist Loading Spinner Icon",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": ""
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/loader\")"
+			}
+		}
+	},
+	"loadingSpinnerPosterIcn":
+	{
+		"SimpleName": "Poster Loading Spinner Icon",
+		"iOS":
+		{
+			"AllApps":
+			{
+				"AllDevices": ""
+			}
+		},
+		"Android":
+		{
+			"AllApps":
+			{
+				"AllDevices": "AndroidUIAutomator::resourceId(\"$inPackage:id/poster_loading\")"
+			}
+		}
+	}
+}
